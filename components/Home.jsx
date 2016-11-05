@@ -20,6 +20,7 @@ function Home() {
                 <SocialLink icon="images/twitter_logo_blue.png" link="https://twitter.com/jaredcaz" />
                 <SocialLink icon="images/so-icon.png" link="http://stackoverflow.com/users/2812273/jcasner" />
                 <SocialLink icon="images/medium_logo32.png" link="https://medium.com/@jaredcaz" />
+                <SocialLink icon="" link="https://www.facebook.com/jaredmcasner" />
               </tbody>
             </table>
           </p>
