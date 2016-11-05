@@ -296,6 +296,11 @@ footer {
     position:static;
   }
 
+  header ul, header p.withIcon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
   pre, code {
     word-wrap:normal;
   }
