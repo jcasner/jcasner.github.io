@@ -15,9 +15,9 @@ function Home() {
           <p class="view">
             <table>
               <tbody>
-                <SocialLink icon="images/github-mark-32px.png" link="https://github.com/jcasner" />
+                <SocialLink icon="images/Github-Mark-32px.png" link="https://github.com/jcasner" />
                 <SocialLink icon="images/In-2C-14px.png" link="https://www.linkedin.com/in/jaredmcasner" />
-                <SocialLink icon="images/twitter_logo_blue.png" link="https://twitter.com/jaredcaz" />
+                <SocialLink icon="images/Twitter_Logo_Blue.png" link="https://twitter.com/jaredcaz" />
                 <SocialLink icon="images/so-icon.png" link="http://stackoverflow.com/users/2812273/jcasner" />
                 <SocialLink icon="images/medium_logo32.png" link="https://medium.com/@jaredcaz" />
               </tbody>
