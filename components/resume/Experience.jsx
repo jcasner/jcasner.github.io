@@ -21,7 +21,7 @@ const Experience = () => {
             'Recruit, manage, and mentor a team of front-end and full-stack engineers',
             'Work closely with Product and Design to analyze customer needs, define requirements, and scope projects',
             'Oversaw the new OpenGov Budget Builder engineering effort from concept through successful GA',
-            'Pioneered an internal, company-wide hackathon that led to 2 new features on the product roadmap',
+            'Pioneered an internal, company-wide hackathon',
             'Developed a career skills matrix and salary bands for Engineering',
             'Tech stack is PostgreSQL, Ruby/Rails, and Javascript (React, Redux)'
           ]
