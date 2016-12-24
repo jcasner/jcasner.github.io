@@ -14,12 +14,12 @@ const SocialLink = ({ icon, link }) => {
   return(
     <tr>
       <td width="20px">
-        <a class="icon" href={link}>
+        <a class="icon" href={link} target="_blank">
           <img src={icon} class="inline" />
         </a>
       </td>
       <td>
-        <a class="label" href={link}>
+        <a class="label" href={link} target="_blank">
           {getUserName(link)}
         </a>
       </td>
