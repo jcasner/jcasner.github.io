@@ -1,26 +1,32 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import _ from 'lodash';
 
-function SocialLink({ icon, link }) {
+const propTypes = {
+  icon: PropTypes.element.isRequired,
+  link: PropTypes.element.isRequired,
+}
 
-  function getUserName(link) {
+const SocialLink = ({ icon, link }) => {
+  const getUserName = (link) => {
     return _.last(link.split('/'));
   }
 
   return(
     <tr>
       <td width="20px">
-        <a href={link}>
+        <a class="icon" href={link}>
           <img src={icon} class="inline" />
         </a>
       </td>
       <td>
-        <a href={link}>
+        <a class="label" href={link}>
           {getUserName(link)}
         </a>
       </td>
     </tr>
   )
 }
+
+SocialLink.propTypes = propTypes;
 
 export default SocialLink;

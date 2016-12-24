@@ -3,6 +3,10 @@ img.inline {
   vertical-align: middle;
 }
 
+td {
+  max-width: 80px;
+}
+
 td a {
   display: block;
 }

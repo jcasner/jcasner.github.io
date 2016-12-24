@@ -5,13 +5,15 @@ import 'current-input';
 
 import App from './components/App';
 import Home from './components/Home';
+import Resume from './components/Resume';
 import PageNotFound from './components/PageNotFound';
 
-
 const routes = (
-  <Route path="/" mapMenuTitle="Home" component={App}>
-    <IndexRoute component={Home} />
-    <Route path="*" mapMenuTitle="Page Not Found" component={PageNotFound} />
+  <Route path="/" component={App}>
+    <IndexRoute title="Home" component={Home} />
+    <Route path="" title="Home" component={Home} />
+    <Route path="resume" title="Resume" component={Resume} />
+    <Route path="*" component={PageNotFound} />
   </Route>
 );
 

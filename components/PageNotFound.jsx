@@ -4,12 +4,17 @@ const propTypes = {
   location: PropTypes.object.isRequired,
 };
 
-function PageNotFound({ location }) {
+const PageNotFound = ({ location }) => {
   return (
-    <p>
+    <div>
+      <div class="wrapper">
+        <section>
       Page not found - the path, <code>{location.pathname}</code>,
       did not match any known routes.
-    </p>
+        </section>
+      </div>
+      <script src="javascripts/scale.fix.js"></script>
+    </div>
   );
 }
 

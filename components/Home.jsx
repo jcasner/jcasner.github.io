@@ -1,42 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router';
+import React, { PropTypes } from 'react';
 
-import SocialLink from './SocialLink';
+import Menu from './Menu';
 
-function Home() {
+const propTypes = {
+  routes: PropTypes.array.isRequired,
+};
 
+const Home = ({ routes }) => {
   return (
     <div>
+      <div>
+        <Menu routes={routes[0].childRoutes} />
+      </div>
       <div class="wrapper">
-        <header>
-          <h1>Jared Casner</h1>
-          <p></p>
-
-          <p class="view">
-            <table>
-              <tbody>
-                <SocialLink icon="images/github-mark-32px.png" link="https://github.com/jcasner" />
-                <SocialLink icon="images/in-2c-14px.png" link="https://www.linkedin.com/in/jaredmcasner" />
-                <SocialLink icon="images/twitter_logo_blue.png" link="https://twitter.com/jaredcaz" />
-                <SocialLink icon="images/so-icon.png" link="http://stackoverflow.com/users/2812273/jcasner" />
-                <SocialLink icon="images/medium_logo32.png" link="https://medium.com/@jaredcaz" />
-                <SocialLink icon="images/fb_icon_325.png" link="https://www.facebook.com/jaredmcasner" />
-              </tbody>
-            </table>
-          </p>
-
-        </header>
         <section>
-          <h3>
-  <a id="coming-soon" class="anchor" href="#coming-soon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Coming soon!</h3>
+          Coming soon!
         </section>
-        <footer>
-          <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        </footer>
       </div>
       <script src="javascripts/scale.fix.js"></script>
     </div>
   );
 }
+
+Home.propTypes = propTypes;
 
 export default Home;
