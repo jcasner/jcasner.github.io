@@ -23,6 +23,10 @@ const Home = ({ routes }) => {
           <p>
             I am a technology generalist, having worked professionally in Python, C#, Java (J2EE &amp; Android), Ruby, and Javascript. In my career, I've built custom web applications, integrated enterprise software, developed mobile apps, and published open source software. These days, I'm fairly hands off of the codebase, specializing in people and process management. I've been happily managing cross-functional technical resources since late 2009.
           </p>
+          <h2>Coding for Fun</h2>
+          <p>
+            I enjoy playing with new technology and will occasionally spin up a project to learn something new. One example of this is a <a href="http://jared.casner.us/EarthDawnDiceRoller/" target="_blank">simple dice roller</a> I wrote for the table top RPG Earthdawn using React Native. I have also been a regular attendee of the <a href="http://opensmc.org/" target="_blank">Open San Mateo County</a> weekly hack nights. OpenSMC is an affiliate of <a href="https://www.codeforamerica.org" target="_blank">Code for America</a>, a Civic Tech hack group.
+          </p>
         </section>
       </div>
       <script src="javascripts/scale.fix.js"></script>
