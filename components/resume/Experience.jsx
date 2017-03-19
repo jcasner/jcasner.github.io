@@ -9,9 +9,23 @@ const propTypes = {
 
 const Experience = () => {
   const experience = {
+    Sindeo: {
+      location: 'San Francisco, CA',
+      start: moment('2017-02-14'),
+      blurb: 'Sindeo is changing the mortgage industry from the ground up by offering homebuyers a straightforward path to home ownership and refinancing.',
+      positions: [
+        {
+          title: 'Director, Engineering',
+          notes: [
+            'Responsible for all engineering activities'
+          ]
+        },
+      ]
+    },
     OpenGov: {
       location: 'Redwood City, CA',
       start: moment('2015-11-02'),
+      end: moment('2017-02-03'),
       blurb: 'OpenGov is a cloud-based platform that governments use to collaborate more effectively, make smarter, data-driven decisions and achieve greater transparency.',
       positions: [
         {
