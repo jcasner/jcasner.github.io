@@ -12,12 +12,18 @@ const Experience = () => {
     Sindeo: {
       location: 'San Francisco, CA',
       start: moment('2017-02-14'),
+      end: moment('2017-06-20'),
       blurb: 'Sindeo is changing the mortgage industry from the ground up by offering homebuyers a straightforward path to home ownership and refinancing.',
       positions: [
         {
           title: 'Director, Engineering',
           notes: [
-            'Responsible for all engineering activities'
+            'Responsible for all of engineering at Sindeo',
+            'Managed multiple 3rd party vendors, contracts, etc',
+            'Restructured the engineering team and added several key hires',
+            'Managed, mentored, and developed engineers',
+            'Instituted process within product and engineering, moving from no process to Scrum and increasing predictability in delivery',
+            'Roughly 40% hands on in Python and DevOps'
           ]
         },
       ]
