@@ -20,7 +20,7 @@ const Experience = () => {
           notes: [
             'Responsible for all of engineering at Sindeo',
             'Managed multiple 3rd party vendors, contracts, etc',
-            'Restructured the engineering team and added several key hires',
+            'Restructured the engineering team and added several key hires (added 1 engineer a month)',
             'Managed, mentored, and developed engineers',
             'Instituted process within product and engineering, moving from no process to Scrum and increasing predictability in delivery',
             'Roughly 40% hands on in Python and DevOps'
