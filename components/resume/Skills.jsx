@@ -10,9 +10,9 @@ const Summary = () => {
   const skills = {
     languages: [
       'Python',
-      'Java (J2EE and Android)',
+      'Java (J2EE, Android)',
       'C#',
-      'JavaScript (React.js, Node)',
+      'JavaScript (React.js, Angular, Node)',
       'VB',
       'C++',
       'Ruby/Rails',

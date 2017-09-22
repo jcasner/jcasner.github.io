@@ -9,6 +9,19 @@ const propTypes = {
 
 const Experience = () => {
   const experience = {
+    CNote: {
+      location: 'Oakland, CA',
+      start: moment('2017-09-25'),
+      blurb: 'CNote is an impact investment product that offers a projected 2.5% return with no fees and flexible liquidity.',
+      positions: [
+        {
+          title: 'VP of Engineering',
+          notes: [
+
+          ]
+        }
+      ]
+    },
     Sindeo: {
       location: 'San Francisco, CA',
       start: moment('2017-02-14'),
@@ -157,9 +170,11 @@ const Experience = () => {
   const getExperience = () => {
     const result = [];
     Object.keys(experience).forEach((key) => {
-      result.push(
-        <Company key={key} company={key} details={experience[key]} />
-      );
+      if (moment().diff(experience[key].start) >= 0) {
+        result.push(
+          <Company key={key} company={key} details={experience[key]} />
+        );
+      }
     });
     return result;
   };

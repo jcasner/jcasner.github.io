@@ -21,6 +21,7 @@ const Summary = () => {
             <li>{yearsWork}+ years designing and developing software</li>
             <li>{yearsMgmt}+ years managing software developers and other technical resources</li>
             <li>Experience delivering production software on time and on budget, both standalone and SaaS</li>
+            <li>At Sindeo, turned around a dysfunctional engineering organization</li>
             <li>At OpenGov, oversaw OpenGov Budget Builder engineering effort from MVP through GA</li>
             <li>At Numenta, managed design and development for multiple new products from start to finish</li>
             <li>At Aprimo, oversaw delivery of a $5M+ .Net Web Development project, on time and on budget</li>
