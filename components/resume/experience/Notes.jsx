@@ -1,14 +1,15 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
-  job: PropTypes.element.isRequired,
+  job: PropTypes.object.isRequired,
 };
 
 const Notes = ({ job }) => {
   const notes = [];
   Object.keys(job.notes).forEach((note) => {
     notes.push(
-      <li>{job.notes[note]}</li>
+      <li key={job.notes[note]}>{job.notes[note]}</li>
     );
   });
 

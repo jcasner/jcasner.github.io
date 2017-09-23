@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
 
@@ -9,10 +10,12 @@ const Header = () => {
     <div>
       <h1>Jared Casner</h1>
       <table>
-        <tr>
-          <td>South San Francisco, CA</td>
-          <td>jared [at] casner.us</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>South San Francisco, CA</td>
+            <td>jared [at] casner.us</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );

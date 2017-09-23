@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
   location: PropTypes.object.isRequired,
@@ -7,7 +8,7 @@ const propTypes = {
 const PageNotFound = ({ location }) => {
   return (
     <div>
-      <div class="wrapper">
+      <div className="wrapper">
         <section>
       Page not found - the path, <code>{location.pathname}</code>,
       did not match any known routes.

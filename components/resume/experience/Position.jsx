@@ -1,9 +1,10 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import { getDateCell } from './dateUtils';
 
 const propTypes = {
-  job: PropTypes.element.isRequired,
+  job: PropTypes.object.isRequired,
 };
 
 const Position = ({ job }) => {

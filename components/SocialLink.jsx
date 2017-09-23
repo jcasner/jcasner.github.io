@@ -1,9 +1,11 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import _ from 'lodash';
 
 const propTypes = {
-  icon: PropTypes.element.isRequired,
-  link: PropTypes.element.isRequired,
+  icon: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 }
 
 const SocialLink = ({ icon, link }) => {
@@ -14,12 +16,12 @@ const SocialLink = ({ icon, link }) => {
   return(
     <tr>
       <td width="20px">
-        <a class="icon" href={link} target="_blank">
-          <img src={icon} class="inline" />
+        <a className="icon" href={link} target="_blank">
+          <img src={icon} className="inline" />
         </a>
       </td>
       <td>
-        <a class="label" href={link} target="_blank">
+        <a className="label" href={link} target="_blank">
           {getUserName(link)}
         </a>
       </td>

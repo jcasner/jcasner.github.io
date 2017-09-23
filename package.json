@@ -15,9 +15,12 @@
     "current-input": "^1.1.0",
     "lodash": "^4.16.6",
     "moment": "^2.17.1",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "react-router": "^2.4.1"
+    "prop-types": "^15.5.10",
+    "query-string": "^5.0.0",
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",

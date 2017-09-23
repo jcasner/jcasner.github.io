@@ -1,31 +1,32 @@
-import React, { PropTypes } from 'react';
-import { Link } from 'react-router';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import queryString from 'query-string';
 
 import Menu from './Menu';
 
 import Body from './resume/Body';
 import Header from './resume/Header';
 
-const propTypes = {
-  routes: PropTypes.array.isRequired,
-};
+const menuObject = { 'menu': 'false' };
 
-const Resume = ({ routes, location: { query } }) => {
+const Resume = ({ location: { search } }) => {
+  const hideMenu = queryString.parse(search).menu == 'false';
   return (
     <div>
-      {query && query.menu === 'false' ?
+      {hideMenu ?
       <div>
         <Header />
         <Body />
       </div> :
       <div>
         <div>
-          <Menu routes={routes[0].childRoutes} />
+          <Menu />
         </div>
-        <div class="wrapper">
+        <div className="wrapper">
           <section>
             <h2>Resume</h2>
-            <Link to={{  pathname: '/resume', query: { menu: false } }}>Printer Friendly</Link>
+            <Link to={{ pathname: '/resume', search: queryString.stringify(menuObject) }}>Printer Friendly</Link>
             <Body />
           </section>
         </div>
@@ -35,7 +36,5 @@ const Resume = ({ routes, location: { query } }) => {
     </div>
   );
 }
-
-Resume.propTypes = propTypes;
 
 export default Resume;

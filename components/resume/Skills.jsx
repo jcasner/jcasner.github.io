@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import _ from 'lodash';
 
@@ -47,21 +48,23 @@ const Summary = () => {
   const getSkillsList = () => {
     const result = [];
     Object.keys(skills).forEach(function(key) {
-      result.push(<li><strong>{_.capitalize(key)}:</strong>&nbsp;{skills[key].join(', ')}</li>)
+      result.push(<li key={key}><strong>{_.capitalize(key)}:</strong>&nbsp;{skills[key].join(', ')}</li>)
     });
     return result;
   }
 
   return (
     <table>
-      <tr>
-        <td>
-          <h2>Skills</h2>
-          <ul>
-            {getSkillsList()}
-          </ul>
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>
+            <h2>Skills</h2>
+            <ul>
+              {getSkillsList()}
+            </ul>
+          </td>
+        </tr>
+      </tbody>
     </table>
   )
 }

@@ -1,20 +1,23 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
-  details: PropTypes.element.isRequired,
+  details: PropTypes.object.isRequired,
 };
 
 const Degree = ({ details }) => {
   return (
     <table>
-      <tr>
-        <td><big><strong>{details.degree}</strong></big></td>
-        <td>{details.minors ? <strong>Minors: {details.minors}</strong> : ''}</td>
-      </tr>
-      <tr>
-        <td>{details.school}</td>
-        <td>{details.graduation}</td>
-      </tr>
+      <tbody>
+        <tr>
+          <td><big><strong>{details.degree}</strong></big></td>
+          <td>{details.minors ? <strong>Minors: {details.minors}</strong> : ''}</td>
+        </tr>
+        <tr>
+          <td>{details.school}</td>
+          <td>{details.graduation}</td>
+        </tr>
+      </tbody>
     </table>
   );
 };

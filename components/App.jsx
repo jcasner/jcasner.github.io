@@ -1,17 +1,29 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import { render } from 'react-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
 
-const propTypes = {
-  children: PropTypes.element.isRequired
-};
+import Home from './Home';
+import Resume from './Resume';
+import PageNotFound from './PageNotFound';
 
-const App = ({ children }) => {
+const routes = (
+  <Switch>
+    <Route exact path="/" title="Home" component={Home} />
+    <Route path="/resume" title="Resume" component={Resume} />
+    <Route component={PageNotFound} />
+  </Switch>
+);
+
+const App = () => {
   return (
-    <div>
-      {children}
-    </div>
+    <Router>
+      {routes}
+    </Router>
   );
 }
-
-App.propTypes = propTypes;
 
 export default App;

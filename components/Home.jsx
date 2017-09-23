@@ -1,26 +1,22 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import Menu from './Menu';
 
-const propTypes = {
-  routes: PropTypes.array.isRequired,
-};
-
-const Home = ({ routes }) => {
+const Home = () => {
   return (
     <div>
       <div>
-        <Menu routes={routes[0].childRoutes} />
+        <Menu />
       </div>
-      <div class="wrapper">
+      <div className="wrapper">
         <section>
           <h1>About Me</h1>
           <h2>At Home</h2>
           <p>
             My wife, Lisa, and I live in South San Francisco, CA with our beautiful daughter.
-            Together, we're active in the community through programs like
-            <a target="_blank" href="http://act.alz.org/site/TR/BvB/CA-NorthernCaliforniaandNorthernNevada?pg=entry&fr_id=9559">Blondes vs Brunettes</a>,
-            enjoy the outdoors, and have a healthy social life.
+            Together, we're active in the community through programs like <a target="_blank" href="http://act.alz.org/site/TR/BvB/CA-NorthernCaliforniaandNorthernNevada?pg=entry&fr_id=9559">
+            Blondes vs Brunettes</a>, enjoy the outdoors, and have a healthy social life.
             I run the local <a href="http://www.bayareapioneers.org/" target="_blank">University of Denver alumni chapter</a>, hosting 6-8 events per year.
             In fact, I was featured as the <a href="https://www.youtube.com/watch?v=3KTlZ-feS8w" target="_blank">Alum of the Month</a> for DU in March 2016.
             At this point, I've retired from rugby, but am still advising the Board of <a target="_blank" href="http://www.babaracusrugby.com/">BA Baracus Rugby Club</a> and
@@ -45,7 +41,5 @@ const Home = ({ routes }) => {
     </div>
   );
 }
-
-Home.propTypes = propTypes;
 
 export default Home;
