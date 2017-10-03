@@ -9,7 +9,7 @@ export const getDateCell = (start, end, includeDuration) => {
   const endStr = end ? endDate.format('MM/YY') : 'present';
   const duration = moment.duration(endDate.diff(start));
   const years = duration.years(), months = duration.months();
-  let diff = years && util.format('%d year%s', years, years === 1 ? '' : 's');
+  let diff = years ? util.format('%d year%s', years, years === 1 ? '' : 's') : '';
   diff = years && months ? diff + ', ' : diff;
   diff = months ? diff + util.format('%d month%s', months, months === 1 ? '' : 's') : diff;
   return (
