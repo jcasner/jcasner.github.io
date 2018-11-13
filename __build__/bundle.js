@@ -26566,7 +26566,7 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'My wife, Lisa, and I live in South San Francisco, CA with our beautiful daughter. Together, we\'re active in the community through programs like ',
+	          'My wife, Lisa, and I live in South San Francisco, CA with our beautiful daughters. Together, we\'re active in the community through programs like ',
 	          _react2.default.createElement(
 	            'a',
 	            { target: '_blank', href: 'http://act.alz.org/site/TR/BvB/CA-NorthernCaliforniaandNorthernNevada?pg=entry&fr_id=9559' },
@@ -26584,7 +26584,13 @@
 	            { href: 'https://www.youtube.com/watch?v=3KTlZ-feS8w', target: '_blank' },
 	            'Alum of the Month'
 	          ),
-	          ' for DU in March 2016. At this point, I\'ve retired from rugby, but I continue to see a lot of the older guys on the softball field and golf course.'
+	          ' for DU in March 2016. At this point, I\'ve retired from rugby, but I continue to see a lot of the older guys on the softball field and golf course. I am an active member of ',
+	          _react2.default.createElement(
+	            'a',
+	            { target: '_blank', href: 'http://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert' },
+	            'SSF CERT'
+	          ),
+	          '.'
 	        ),
 	        _react2.default.createElement(
 	          'h2',
