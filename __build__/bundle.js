@@ -26572,25 +26572,19 @@
 	            { target: '_blank', href: 'http://act.alz.org/site/TR/BvB/CA-NorthernCaliforniaandNorthernNevada?pg=entry&fr_id=9559' },
 	            'Blondes vs Brunettes'
 	          ),
-	          ', enjoy the outdoors, and have a healthy social life. I run the local ',
+	          ', enjoy the outdoors, and have a healthy social life. I ran the local ',
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'http://www.bayareapioneers.org/', target: '_blank' },
 	            'University of Denver alumni chapter'
 	          ),
-	          ', hosting 6-8 events per year. In fact, I was featured as the ',
+	          ', hosting 6-8 events per year until March 2018. In fact, I was featured as the ',
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://www.youtube.com/watch?v=3KTlZ-feS8w', target: '_blank' },
 	            'Alum of the Month'
 	          ),
-	          ' for DU in March 2016. At this point, I\'ve retired from rugby, but am still advising the Board of ',
-	          _react2.default.createElement(
-	            'a',
-	            { target: '_blank', href: 'http://www.babaracusrugby.com/' },
-	            'BA Baracus Rugby Club'
-	          ),
-	          ' and I continue to see a lot of the older guys on the softball field and golf course.'
+	          ' for DU in March 2016. At this point, I\'ve retired from rugby, but I continue to see a lot of the older guys on the softball field and golf course.'
 	        ),
 	        _react2.default.createElement(
 	          'h2',
@@ -26600,23 +26594,7 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'I am a technology generalist, having worked professionally in Python, C#, Java (J2EE & Android), Ruby, and Javascript. In my career, I\'ve built custom web applications, integrated enterprise software, developed mobile apps, and published open source software. These days, I\'m fairly hands off of the codebase, specializing in people and process management. I\'ve been happily managing cross-functional technical resources since late 2009.'
-	        ),
-	        _react2.default.createElement(
-	          'h2',
-	          null,
-	          'Coding for Fun'
-	        ),
-	        _react2.default.createElement(
-	          'p',
-	          null,
-	          'I enjoy playing with new technology and will occasionally spin up a project to learn something new. One example of this is a ',
-	          _react2.default.createElement(
-	            'a',
-	            { href: 'http://jared.casner.us/EarthDawnDiceRoller/', target: '_blank' },
-	            'simple dice roller'
-	          ),
-	          ' I wrote for the table top RPG Earthdawn using React Native.'
+	          'I am a technology generalist, having worked professionally in Python, C#, Java (J2EE & Android), Ruby, and Javascript. In my career, I\'ve built custom web applications, integrated enterprise software, developed mobile apps, and published open source software. Lately, I\'ve been thinking much more about security and implementing defense-in-depth solutions at every layer of the application. I spend as much time deep in the code and architecture as I do managing people, and enjoy both equally.'
 	        )
 	      )
 	    ),
@@ -44562,7 +44540,7 @@
 	      blurb: 'CNote is an impact investment product that offers a projected 2.5% return with no fees and flexible liquidity.',
 	      positions: [{
 	        title: 'VP of Engineering',
-	        notes: []
+	        notes: ['Oversaw initial production release in September 2017', 'Responsible for all Product, Engineering, and Design']
 	      }]
 	    },
 	    Sindeo: {
@@ -44572,7 +44550,7 @@
 	      blurb: 'Sindeo is changing the mortgage industry from the ground up by offering homebuyers a straightforward path to home ownership and refinancing.',
 	      positions: [{
 	        title: 'Director, Engineering',
-	        notes: ['Responsible for all of engineering at Sindeo', 'Managed multiple 3rd party vendors, contracts, etc', 'Restructured the engineering team and added several key hires (added 1 engineer a month)', 'Managed, mentored, and developed engineers', 'Instituted process within product and engineering, moving from no process to Scrum and increasing predictability in delivery', 'Roughly 40% hands on in Python and DevOps']
+	        notes: ['Responsible for all of engineering at Sindeo', 'Managed multiple 3rd party vendors, contracts, etc', 'Restructured the engineering team and added several key hires (added 1 engineer a month)', 'Managed, mentored, and developed engineers', 'Instituted process within product and engineering, moving from no process to Scrum and increasing predictability in delivery', 'Roughly 40% hands on in Python and DevOps', 'Led technical due diligence efforts when Sindeo was acquired by RenRen']
 	      }]
 	    },
 	    OpenGov: {
