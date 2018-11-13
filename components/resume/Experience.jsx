@@ -19,7 +19,8 @@ const Experience = () => {
         {
           title: 'VP of Engineering',
           notes: [
-
+            'Oversaw initial production release in September 2017',
+            'Responsible for all Product, Engineering, and Design'
           ]
         }
       ]
@@ -38,7 +39,8 @@ const Experience = () => {
             'Restructured the engineering team and added several key hires (added 1 engineer a month)',
             'Managed, mentored, and developed engineers',
             'Instituted process within product and engineering, moving from no process to Scrum and increasing predictability in delivery',
-            'Roughly 40% hands on in Python and DevOps'
+            'Roughly 40% hands on in Python and DevOps',
+            'Led technical due diligence efforts when Sindeo was acquired by RenRen'
           ]
         },
       ]
