@@ -1,7 +1,6 @@
-/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
-import webpack from 'webpack';
+const webpack = require('webpack');
 
-export default {
+module.exports = {
   context: __dirname,
   entry: './index.jsx',
   output: {
@@ -9,12 +8,14 @@ export default {
     filename: 'bundle.js',
   },
   module: {
-    loaders: [
-      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel' },
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        resolve: { extensions: [".js", ".jsx"] },
+        loader: 'babel-loader'
+      },
     ],
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx'],
   },
   plugins: (() => {
     if (process.argv.indexOf('-p') !== -1) {

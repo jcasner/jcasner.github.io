@@ -14,13 +14,17 @@ const Experience = () => {
     CNote: {
       location: 'Oakland, CA',
       start: moment('2017-09-25'),
-      blurb: 'CNote is an impact investment product that offers a projected 2.5% return with no fees and flexible liquidity.',
+      blurb: 'CNote uses technology to unlock deeply impactful community investments that empower underserved communities while generating competitive returns.',
       positions: [
         {
-          title: 'VP of Engineering',
+          title: 'VP, Engineering',
           notes: [
-            'Oversaw initial production release in September 2017',
-            'Responsible for all Product, Engineering, and Design'
+            'Represented CNote on Capitol Hill',
+            'Actively involved in fundraising and pitching to Angels and VCs',
+            'Responsible for product, engineering, design, and security',
+            'Manage a lean, distributed organization with high quality, rapid releases',
+            'Implemented blue/green deployments, full CI/CD, and achieved 99.999%+ uptime since 2018',
+            'Roughly 50% hands on using javascript, python, and MySQL',
           ]
         }
       ]
@@ -34,13 +38,13 @@ const Experience = () => {
         {
           title: 'Director, Engineering',
           notes: [
+            'Led technical due diligence efforts when Sindeo was acquired by RenRen',
             'Responsible for all of engineering at Sindeo',
             'Managed multiple 3rd party vendors, contracts, etc',
-            'Restructured the engineering team and added several key hires (added 1 engineer a month)',
+            'Restructured the engineering team and added several key hires (doubled team size)',
             'Managed, mentored, and developed engineers',
-            'Instituted process within product and engineering, moving from no process to Scrum and increasing predictability in delivery',
+            'Instituted process within product and engineering',
             'Roughly 40% hands on in Python and DevOps',
-            'Led technical due diligence efforts when Sindeo was acquired by RenRen'
           ]
         },
       ]
@@ -54,13 +58,12 @@ const Experience = () => {
         {
           title: 'Director, Engineering',
           notes: [
-            'Manage 3rd party vendors for new product development and maintenance initiatives',
-            'Recruit, manage, and mentor a team of front-end and full-stack engineers',
+            'Managed 3rd party vendors for new product development and maintenance initiatives',
+            'Recruited, managed, and mentored a team of 12 front-end and full-stack engineers and managers',
             'Work closely with Product and Design to analyze customer needs, define requirements, and scope projects',
-            'Oversaw the new OpenGov Budget Builder engineering effort from concept through successful GA',
-            'Pioneered an internal, company-wide hackathon',
+            'Oversaw the OpenGov Budget Builder engineering effort from concept through successful GA',
+            'Pioneered and championed internal, company-wide hackathons',
             'Developed a career skills matrix and salary bands for Engineering',
-            'Tech stack is PostgreSQL, Ruby/Rails, and Javascript (React, Redux)'
           ]
         }
       ]
@@ -72,19 +75,15 @@ const Experience = () => {
       blurb: 'Numenta, Inc., was founded in 2005 to be a catalyst in the emerging field of machine intelligence. Its biologically inspired machine learning technology is based on a theory of the neocortex first described in co-founder Jeff Hawkins’ book, On Intelligence. The technology can be applied to anomaly detection in servers and applications, human behavior, and geo-spatial tracking data, and to the predication and classification of natural language. In addition, Numenta has created NuPIC (Numenta Platform for Intelligent Computing) as an open source project.',
       positions: [
         {
-          title: 'Director, Engineering',
+          title: 'Director, Application Engineering',
           start: moment('2013-07-01'),
           end: moment('2015-10-31'),
           location: 'Redwood City, CA',
           notes: [
-            'Delivered a 1.0 product, available in the Amazon Webservices (AWS) Marketplace and managed subsequent updates',
-            'Delivered a 1.0 SaaS application (python) with a web client (Javascript) and Android app (native java)',
+            'Led development of 2 applications that were subsequently licensed commercially',
             'Managed full-stack engineering efforts of all commercial software',
             'Led the transition to open source all commercial software',
-            'Liaised with Product Management to define direction and scope of the product',
-            'Discussed features and beta programs with customers and prospects',
-            'Directly managed infrastructure, web, and QA engineering teams',
-            'Transitioned engineering from Scrum to Kanban, increasing efficiency and throughput of the team'
+            'Drove continuous data-driven refinement of engineering processes',
           ]
         },
         {
@@ -94,10 +93,10 @@ const Experience = () => {
           location: 'Redwood City, CA',
           notes: [
             'Responsible for all post-sales engineering activity, from scoping through delivery',
-            'Owned the engineering of client libraries and all customer facing development activity',
+            'Owned the engineering of client libraries (python, .net, javascript, etc) and all customer facing development activity',
             'Managed customer-facing and customer-focused applications',
             'Served as the internal voice of the customer and user champion',
-            'Spoke at conferences and special interest groups to advocate new approaches to data science and evangelize Grok technology'
+            'Spoke at conferences and special interest groups to advocate new approaches to data science and evangelize technology'
           ]
         }
       ]
@@ -114,11 +113,10 @@ const Experience = () => {
           end: moment('2012-10-01'),
           location: 'London, UK',
           notes: [
-            'Oversaw all custom software development activities in Europe, the Middle East and Africa (EMEA), from design through delivery',
-            'Architected and scoped large (>£1M) custom .Net web development projects, including the largest in Aprimo history ($5M+)',
+            'Oversaw all custom software development activities in Europe, the Middle East, and Africa (EMEA), from design through delivery',
             'Managed all field-based software developers and managers, QA engineers, infrastructure specialists and data analysts in EMEA',
-            'Built the technical team in EMEA, growing the team from 1 to 11 cross-functional engineers in under 3 years',
-            'Defined and refined methodology and processes across the technical services practice',
+            'Built the technical team in EMEA, growing the team from 1 to 11',
+            'Defined and refined methodology and processes across the technical services practice globally',
             'Developed a new offshore software development team, from recruitment through operational management'
           ]
         },
@@ -129,9 +127,8 @@ const Experience = () => {
           location: 'Denver, CO',
           notes: [
             'Customers included Xerox, Warner Brothers, Wal-Mart, Ericsson, Kaiser Permanente, Prudential, and Adobe',
-            'Designed and developed integrations between Aprimo and third-party applications focusing on high-availability and scalability',
-            'Led development teams (C#) and ensured on time and on budget delivery of enhanced functionality',
-            'Developed tools for internal consumption which save significant amounts of time in standard processes'
+            'Custom software and integrations using the .Net stack (C#), MSSQL Server, Oracle, etc.',
+            'Led development teams and ensured on time and on budget delivery of enhanced functionality'
           ]
         }
       ]
@@ -145,9 +142,7 @@ const Experience = () => {
         {
           title: 'Technical Consultant',
           notes: [
-            'Consulted for multiple governmental agencies under the Directorate of National Intelligence (DNI)',
-            'Defined a custom agile development process for a program, combining pieces of Scrum, RUP, and XP and including TDD',
-            'Developed and maintained custom J2EE web applications and Java based thick clients attached to Oracle DBs',
+            'Custom software applications for the federal government using Java, Javascript, and Oracle',
             'Led an operations and maintenance team, including planning, tasking and teaching the rest of the team',
             'Held a Top Secret / SCI clearance'
           ]
@@ -163,8 +158,7 @@ const Experience = () => {
         {
           title: 'Research Analyst, Client Management',
           notes: [
-            'Evaluated problem reports, interacted with Visa’s worldwide customer base, and performed root cause analysis of problems',
-            'Prioritized customer problems based on impact and severity and drove issues to closure'
+            'Technical support for banks and other large processors in the Visa global network'
           ]
         }
       ]

@@ -29,7 +29,6 @@ const Menu = () => {
           <SocialLink icon="images/twitter_logo_blue.png" link="https://twitter.com/jaredcaz" />
           <SocialLink icon="images/so-icon.png" link="http://stackoverflow.com/story/jcasner" />
           <SocialLink icon="images/medium_logo32.png" link="https://medium.com/@jaredcaz" />
-          <SocialLink icon="images/fb_icon_325.png" link="https://www.facebook.com/jaredmcasner" />
         </tbody>
       </table>
     </header>

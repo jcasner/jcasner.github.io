@@ -14,9 +14,9 @@ const Body = () => {
   return (
     <div>
       <Summary />
-      <Skills />
       <Experience />
       <Education />
+      <Skills />
     </div>
   );
 }

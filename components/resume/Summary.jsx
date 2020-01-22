@@ -22,6 +22,7 @@ const Summary = () => {
             <ul>
               <li key='yearsWorking'>{yearsWork}+ years designing and developing software</li>
               <li key='yearsManaging'>{yearsMgmt}+ years managing software developers and other technical resources</li>
+              <li key='cnote'>At CNote, ran all of Product, Engineering, Design, and Security</li>
               <li key='sindeo'>At Sindeo, turned around a dysfunctional engineering organization</li>
               <li key='opengov'>At OpenGov, oversaw OpenGov Budget Builder engineering effort from MVP through GA</li>
               <li key='numenta'>At Numenta, managed design and development for multiple new products from start to finish</li>

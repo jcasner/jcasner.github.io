@@ -17,7 +17,6 @@ const Summary = () => {
       'VB',
       'C++',
       'Ruby/Rails',
-      'Bash'
     ],
     databases: [
       'PostgreSQL',
@@ -28,7 +27,7 @@ const Summary = () => {
       'DynamoDB (NoSQL)'
     ],
     tools: [
-      'JIRA',
+      'Jira',
       'Jenkins',
       'Travis CI',
       'AWS',
@@ -37,12 +36,9 @@ const Summary = () => {
       'Salt',
       'Chef',
       'Git/github',
+      'Bitbucket',
       'svn'
     ],
-    methodologies: [
-      'Agile (Kanban, Scrum, RUP, XP, TDD)',
-      'Waterfall'
-    ]
   };
 
   const getSkillsList = () => {
