@@ -1,9 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-const propTypes = {
-
-};
 
 const Header = () => {
   return (
@@ -12,7 +7,7 @@ const Header = () => {
       <table>
         <tbody>
           <tr>
-            <td>South San Francisco, CA</td>
+            <td>San Bruno, CA</td>
             <td>jared [at] casner.us</td>
           </tr>
         </tbody>
@@ -20,7 +15,5 @@ const Header = () => {
     </div>
   );
 }
-
-Header.propTypes = propTypes;
 
 export default Header;

@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import _ from 'lodash';
-
 const propTypes = {
   icon: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
 }
 
 const SocialLink = ({ icon, link }) => {
-  const getUserName = (link) => {
-    return _.last(link.split('/'));
+  const getUserName = link => {
+    return link.split('/').pop();
   }
 
   return(

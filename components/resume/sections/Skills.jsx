@@ -1,15 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-import _ from 'lodash';
-
-const propTypes = {
-
-};
 
 const Summary = () => {
   const skills = {
-    languages: [
+    Languages: [
       'Python',
       'Java (J2EE, Android)',
       'C#',
@@ -18,7 +11,7 @@ const Summary = () => {
       'C++',
       'Ruby/Rails',
     ],
-    databases: [
+    Databases: [
       'PostgreSQL',
       'MySQL',
       'SQL Server',
@@ -26,7 +19,7 @@ const Summary = () => {
       'Teradata',
       'DynamoDB (NoSQL)'
     ],
-    tools: [
+    Tools: [
       'Jira',
       'Jenkins',
       'Travis CI',
@@ -35,8 +28,7 @@ const Summary = () => {
       'Gradle',
       'Salt',
       'Chef',
-      'Git/github',
-      'Bitbucket',
+      'git',
       'svn'
     ],
   };
@@ -44,7 +36,7 @@ const Summary = () => {
   const getSkillsList = () => {
     const result = [];
     Object.keys(skills).forEach(function(key) {
-      result.push(<li key={key}><strong>{_.capitalize(key)}:</strong>&nbsp;{skills[key].join(', ')}</li>)
+      result.push(<li key={key}><strong>{key}:</strong>&nbsp;{skills[key].join(', ')}</li>)
     });
     return result;
   }
@@ -64,7 +56,5 @@ const Summary = () => {
     </table>
   )
 }
-
-Summary.propTypes = propTypes;
 
 export default Summary;

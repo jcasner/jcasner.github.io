@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import queryString from 'query-string';
 
-import Menu from './Menu';
+import Menu from '../menu';
 
-import Body from './resume/Body';
-import Header from './resume/Header';
+import Body from './sections/Body';
+import Header from './sections/Header';
 
 const menuObject = { 'menu': 'false' };
 

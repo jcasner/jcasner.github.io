@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  location: PropTypes.object.isRequired,
+  location: PropTypes.shape({ pathname: PropTypes.string }).isRequired,
 };
 
 const PageNotFound = ({ location }) => {
@@ -10,8 +10,8 @@ const PageNotFound = ({ location }) => {
     <div>
       <div className="wrapper">
         <section>
-      Page not found - the path, <code>{location.pathname}</code>,
-      did not match any known routes.
+          Page not found - the path, <code>{location.pathname}</code>,
+          did not match any known routes.
         </section>
       </div>
       <script src="javascripts/scale.fix.js"></script>

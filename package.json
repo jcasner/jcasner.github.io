@@ -14,7 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "current-input": "1.1.1",
-    "lodash": "4.17.15",
     "moment": "2.24.0",
     "prop-types": "15.7.2",
     "query-string": "6.10.1",

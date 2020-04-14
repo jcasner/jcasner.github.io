@@ -1,13 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import moment from 'moment';
 
 import Company from './experience/Company';
-
-const propTypes = {
-
-};
 
 const Experience = () => {
   const experience = {
@@ -184,7 +179,5 @@ const Experience = () => {
     </div>
   );
 };
-
-Experience.propTypes = propTypes;
 
 export default Experience;

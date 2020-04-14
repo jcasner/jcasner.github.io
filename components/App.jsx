@@ -1,14 +1,13 @@
 import React from 'react';
-import { render } from 'react-dom';
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
 
-import Home from './Home';
-import Resume from './Resume';
-import PageNotFound from './PageNotFound';
+import Home from './home';
+import Resume from './resume';
+import PageNotFound from './not-found';
 
 const routes = (
   <Switch>
