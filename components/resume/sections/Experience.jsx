@@ -19,7 +19,7 @@ const Experience = () => {
             'Responsible for product, engineering, design, and security',
             'Manage a lean, distributed organization with high quality, rapid releases',
             'Implemented blue/green deployments, full CI/CD, and achieved 99.999%+ uptime since 2018',
-            'Roughly 50% hands on using javascript, python, and MySQL',
+            'Roughly 50% hands on',
           ]
         }
       ]
@@ -39,7 +39,7 @@ const Experience = () => {
             'Restructured the engineering team and added several key hires (doubled team size)',
             'Managed, mentored, and developed engineers',
             'Instituted process within product and engineering',
-            'Roughly 40% hands on in Python and DevOps',
+            'Roughly 40% hands on',
           ]
         },
       ]
