@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Menu from '../menu';
+import Talks from './talks';
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
             conversation or discussing business strategy. I particularly enjoy people and process manaagement. I have had
             the opportunity to pitch my company and our larger mission to legislators and their aides on Capitol Hill.
           </p>
+          <Talks />
         </section>
       </div>
       <script src="javascripts/scale.fix.js"></script>
