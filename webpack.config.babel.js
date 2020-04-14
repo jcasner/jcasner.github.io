@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   context: __dirname,
@@ -17,17 +18,20 @@ module.exports = {
       },
     ],
   },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        test: /\.js(\?.*)?$/i,
+      }),
+    ]
+  },
   plugins: (() => {
     if (process.argv.indexOf('-p') !== -1) {
       return [
         new webpack.DefinePlugin({
           'process.env': {
             NODE_ENV: JSON.stringify('production'),
-          },
-        }),
-        new webpack.optimize.UglifyJsPlugin({
-          output: {
-            comments: false,
           },
         }),
       ];

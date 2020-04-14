@@ -4,7 +4,8 @@
   "description": "Based on Single Page Apps for GitHub Pages from rafrex/spa-github-pages.git",
   "scripts": {
     "dev": "webpack -d",
-    "start": "webpack -d --watch & live-server --entry-file=404.html"
+    "prod": "webpack -p",
+    "start": "webpack -p --watch & live-server --entry-file=404.html"
   },
   "repository": {
     "type": "git",
@@ -13,13 +14,11 @@
   "author": "Jared Casner <jared@casner.us>",
   "license": "MIT",
   "dependencies": {
-    "current-input": "1.1.1",
     "moment": "2.24.0",
     "prop-types": "15.7.2",
     "query-string": "6.10.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-router": "5.1.2",
     "react-router-dom": "5.1.2"
   },
   "devDependencies": {
@@ -34,7 +33,8 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "^6.0.0",
     "live-server": "1.2.1",
-    "webpack": "4.41.5",
-    "webpack-cli": "3.3.10"
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
   }
 }
