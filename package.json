@@ -3,9 +3,8 @@
   "version": "2.0.0",
   "description": "Based on Single Page Apps for GitHub Pages from rafrex/spa-github-pages.git",
   "scripts": {
-    "dev": "webpack -d",
-    "prod": "webpack -p",
-    "start": "webpack -p --watch & live-server --entry-file=404.html"
+    "build": "webpack -p",
+    "start": "webpack -d --watch & live-server --entry-file=404.html"
   },
   "repository": {
     "type": "git",
