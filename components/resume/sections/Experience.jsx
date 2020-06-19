@@ -6,15 +6,36 @@ import Company from './experience/Company';
 
 const Experience = () => {
   const experience = {
+    'Pear Therapeutics': {
+      location: 'San Francisco, CA',
+      start: moment('2020-06-15'),
+      positions: [
+        {
+          title: 'Director, Engineering',
+          notes: [
+            'Manage commercial, platform, data, and infrastructure engineering teams'
+          ],
+        },
+      ]
+    },
     CNote: {
       location: 'Oakland, CA',
       start: moment('2017-09-25'),
       positions: [
         {
+          title: 'Advisor',
+          start: moment('2020-06-15'),
+          notes: [
+            'Advise on technology strategy'
+          ],
+        },
+        {
           title: 'VP, Engineering',
+          start: moment('2017-09-25'),
+          end: moment('2020-06-15'),
           notes: [
             'Responsible for product, engineering, design, and security',
-            'Manage a lean, distributed organization with high quality, rapid releases',
+            'Managed a lean, distributed organization with high quality, rapid releases',
             'Built a 2-sided loan marketplace, underwriting engine, and loan servicing engine',
             'Implemented blue/green deployments, full CI/CD, and achieved 99.999%+ uptime since 2018',
             'Actively involved in fundraising and pitching to Angels and VCs',
