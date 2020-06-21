@@ -12,9 +12,7 @@ const Experience = () => {
       positions: [
         {
           title: 'Director, Engineering',
-          notes: [
-            'Manage commercial, platform, data, and infrastructure engineering teams'
-          ],
+          notes: [],
         },
       ]
     },
