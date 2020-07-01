@@ -21,11 +21,9 @@ const Experience = () => {
       start: moment('2017-09-25'),
       positions: [
         {
-          title: 'Advisor',
+          title: 'Advisor, Technology and Strategy',
           start: moment('2020-06-15'),
-          notes: [
-            'Advise on technology strategy'
-          ],
+          notes: [],
         },
         {
           title: 'VP, Engineering',
