@@ -11,8 +11,20 @@ const Experience = () => {
       start: moment('2020-06-15'),
       positions: [
         {
+          title: 'Sr. Director, Engineering',
+          start: moment('2021-07-01'),
+          notes: [
+            'Responsible for global initiative engineering teams (platform, web, devops, salesforce)',
+          ],
+        },
+        {
           title: 'Director, Engineering',
-          notes: [],
+          start: moment('2020-06-15'),
+          end: moment('2021-06-30'),
+          notes: [
+            'Responsible for global initiative engineering teams (platform, web, devops, salesforce)',
+            'Grew engineering teams from 15 to 25 direct and indirect reports'
+          ],
         },
       ]
     },
@@ -23,7 +35,9 @@ const Experience = () => {
         {
           title: 'Advisor, Technology and Strategy',
           start: moment('2020-06-15'),
-          notes: [],
+          notes: [
+            'Advise engineering team on technical strategy and growth',
+          ],
         },
         {
           title: 'VP, Engineering',
