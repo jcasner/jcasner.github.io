@@ -37,6 +37,7 @@
     "webpack-cli": "3.3.11"
   },
   "resolutions": {
-    "acorn": "7.1.1"
+    "acorn": "^7.1.1",
+    "glob-parent": "^5.1.2"
   }
 }
