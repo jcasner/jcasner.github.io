@@ -10,8 +10,7 @@ const PageNotFound = ({ location }) => {
     <div>
       <div className="wrapper">
         <section>
-          Page not found - the path, <code>{location.pathname}</code>,
-          did not match any known routes.
+          Page not found - try heading back <a href="/">home</a> to find the link you're looking for.
         </section>
       </div>
       <script src="javascripts/scale.fix.js"></script>
