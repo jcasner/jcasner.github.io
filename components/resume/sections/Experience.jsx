@@ -22,8 +22,8 @@ const Experience = () => {
           start: moment('2020-06-15'),
           end: moment('2021-06-30'),
           notes: [
-            'Responsible for global initiative engineering teams (platform, web, devops, salesforce)',
-            'Grew engineering teams from 15 to 25 direct and indirect reports'
+            'Responsible for global initiative engineering teams (platform, web, devops, data, salesforce)',
+            'Grew my engineering teams from 15 to 25 direct and indirect reports'
           ],
         },
       ]
