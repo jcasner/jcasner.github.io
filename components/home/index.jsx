@@ -12,6 +12,21 @@ const Home = () => {
       <div className="wrapper">
         <section>
           <h1>About Me</h1>
+          <h2>Bio</h2>
+          <p>
+            Jared is a Senior Director of Engineering at Pear Therapeutics where he leads the global initiative engineering
+            teams.
+          </p>
+          <p>
+            In his roughly 20 years in industry, Jared has worked for companies from 3 to 30,000 employees across a
+            variety of industries. His work has taken him to more than 20 countries. He's worked across the stack from
+            pulling cables and configuring networks to tweaking CSS for pixel perfect UI, both as an individual
+            contributor and as a leader.
+          </p>
+          <p>
+            Jared holds a BS in Computer Science from the University of Denver and an MBA from the University of
+            Colorado. He lives in the Bay Area with his wife and 2 daughters.
+          </p>
           <h2>At Home</h2>
           <p>
             I generally spend my weekends playing with my kids or getting my hands dirty (literally) in our garden. When
@@ -21,10 +36,11 @@ const Home = () => {
           </p>
           <h2>In the Community</h2>
           <p>
-            To stay active in the community, I have been volunteering for the Alzheimer's Association's{' '}
-            <a href="https://www.alz.org/bvb">RivALZ</a> program since 2013 and with the South San Francisco{' '}
+            To stay active in the community, I volunteered for the Alzheimer's Association's <a href="https://www.alz.org/bvb">RivALZ</a>
+            program from 2013 through 2020 and with the South San Francisco{' '}
             <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">{' '}
-            Community Emergency Response Team (CERT)</a> since 2018.
+            Community Emergency Response Team (CERT)</a> since 2018. In 2021, I joined the board of the Industry Advisory
+            Council at the University of Denver's Ritchie School for Engineering and Computer Science.
           </p>
           <h2>At Work</h2>
           <p>

@@ -14,7 +14,10 @@ const Experience = () => {
           title: 'Sr. Director, Engineering',
           start: moment('2021-07-01'),
           notes: [
-            'Responsible for global initiative engineering teams (platform, web, devops, salesforce)',
+            'Responsible for global initiative engineering teams (platform, web, devops, support, salesforce)',
+            'Grew my engineering teams from 25 to 40 direct and indirect reports in 6 months with zero regrettable attrition',
+            'Instituted new recruiting pipelines to focus on DEI and standardized onboarding across engineering',
+            'Oversaw rollout of our first microservices, BFFs, and micro-frontends while transitioning to kubernetes',
           ],
         },
         {
@@ -23,7 +26,9 @@ const Experience = () => {
           end: moment('2021-06-30'),
           notes: [
             'Responsible for global initiative engineering teams (platform, web, devops, data, salesforce)',
-            'Grew my engineering teams from 15 to 25 direct and indirect reports'
+            'Grew my engineering teams from 15 to 25 direct and indirect reports, including heads of DevOps and Data',
+            'Introduced incident response plans',
+            'Standardized development practices across engineering',
           ],
         },
       ]
