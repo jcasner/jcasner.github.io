@@ -15,7 +15,7 @@ const Experience = () => {
           start: moment('2021-07-01'),
           notes: [
             'Responsible for global initiative engineering teams (platform, web, devops, support, salesforce)',
-            'Grew my engineering teams from 25 to 40 direct and indirect reports in 6 months with zero regrettable attrition',
+            'Grew my engineering teams from 25 to 40 direct and indirect reports (FTEs + Contractors) in 6 months with zero regrettable attrition',
             'Instituted and standardized recruiting processes to focus on DEI and standardized onboarding across engineering',
             'Oversaw rollout of our first microservices, BFFs, and micro-frontends the transition from ElasticBeanstalk to kubernetes',
             'Acted as interim head of security for 3 months while hiring a new security team',
