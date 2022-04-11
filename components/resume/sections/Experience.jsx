@@ -6,9 +6,20 @@ import Company from './experience/Company';
 
 const Experience = () => {
   const experience = {
+    'Trayt Health': {
+      location: 'Menlo Park, CA',
+      start: moment('2022-04-18'),
+      positions: [
+        {
+          title: 'CTO',
+          notes: [],
+        }
+      ],
+    },
     'Pear Therapeutics': {
       location: 'San Francisco, CA',
       start: moment('2020-06-15'),
+      end: moment('2022-04-15'),
       positions: [
         {
           title: 'Sr. Director, Engineering',

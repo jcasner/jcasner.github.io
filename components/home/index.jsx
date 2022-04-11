@@ -14,11 +14,10 @@ const Home = () => {
           <h1>About Me</h1>
           <h2>Bio</h2>
           <p>
-            Jared is a Senior Director of Engineering at Pear Therapeutics where he leads the global initiative engineering
-            teams.
+            Jared is the CTO at Trayt Health on a mission to improve patient outcomes in at-risk, dependent populations.
           </p>
           <p>
-            In his roughly 20 years in industry, Jared has worked for companies from 3 to 30,000 employees across a
+            In his roughly 20 years pf experience, Jared has worked for companies from 3 to 30,000 employees across a
             variety of industries. His work has taken him to more than 20 countries. He's worked across the stack from
             pulling cables and configuring networks to tweaking CSS for pixel perfect UI, both as an individual
             contributor and as a leader.
@@ -36,11 +35,22 @@ const Home = () => {
           </p>
           <h2>In the Community</h2>
           <p>
-            To stay active in the community, I volunteered for the Alzheimer's Association's <a href="https://www.alz.org/bvb">RivALZ</a>
-            program from 2013 through 2020 and with the South San Francisco{' '}
-            <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">{' '}
-            Community Emergency Response Team (CERT)</a> since 2018. In 2021, I joined the board of the Industry Advisory
-            Council at the University of Denver's Ritchie School for Engineering and Computer Science.
+            <ul>
+              <li>
+                In 2021, I joined the Industry Advisory Board at the Ritchie School for Engineering and Computer Science
+                at DU. I have been leading the Bay Area Alumni group since 2013.
+              </li>
+              <li>
+                Since 2018, I have been a member of the{' '}
+                <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">{' '}
+                  South San Francisco Community Emergency Response Team (CERT)
+                </a>.
+              </li>
+              <li>
+                2013 - 2020 I volunteered for the Alzheimer's Association's <a href="https://www.alz.org/bvb">RivALZ</a>
+                program as a coach, broadcaster, and committee member.
+              </li>
+            </ul>
           </p>
           <h2>At Work</h2>
           <p>
