@@ -1,11 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const propTypes = {
-  location: PropTypes.shape({ pathname: PropTypes.string }).isRequired,
-};
-
-const PageNotFound = ({ location }) => {
+const PageNotFound = () => {
   return (
     <div>
       <div className="wrapper">
@@ -17,7 +12,5 @@ const PageNotFound = ({ location }) => {
     </div>
   );
 }
-
-PageNotFound.propTypes = propTypes;
 
 export default PageNotFound;

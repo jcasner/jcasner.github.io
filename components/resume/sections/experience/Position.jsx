@@ -1,10 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import moment from 'moment-mini';
 
 import { getDateCell } from './dateUtils';
 
 const propTypes = {
-  job: PropTypes.object.isRequired,
+  job: PropTypes.shape({
+    location: PropTypes.string.isRequired,
+    start: PropTypes.instanceOf(moment).isRequired,
+    end: PropTypes.instanceOf(moment),
+    positions: PropTypes.arrayOf(PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      start: PropTypes.instanceOf(moment).isRequired,
+      end: PropTypes.instanceOf(moment),
+      notes: PropTypes.arrayOf(PropTypes.string).isRequired,
+    })).isRequired
+  }).isRequired,
 };
 
 const Position = ({ job }) => {

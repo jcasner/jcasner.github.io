@@ -1,8 +1,6 @@
-const webpack = require('webpack');
 const TerserPlugin = require('terser-webpack-plugin');
 
-module.exports = {
-  context: __dirname,
+var config = {
   entry: './index.jsx',
   output: {
     path: `${__dirname}/__build__`,
@@ -26,16 +24,12 @@ module.exports = {
       }),
     ]
   },
-  plugins: (() => {
-    if (process.argv.indexOf('-p') !== -1) {
-      return [
-        new webpack.DefinePlugin({
-          'process.env': {
-            NODE_ENV: JSON.stringify('production'),
-          },
-        }),
-      ];
-    }
-    return [];
-  })(),
 };
+
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+    config.devtool = 'source-map';
+  }
+
+  return config;
+}

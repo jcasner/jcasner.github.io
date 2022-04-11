@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import queryString from 'query-string';
 
 import Menu from '../menu';
@@ -9,29 +9,37 @@ import Header from './sections/Header';
 
 const menuObject = { 'menu': 'false' };
 
-const Resume = ({ location: { search } }) => {
-  const hideMenu = queryString.parse(search).menu == 'false';
+const Resume = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const hideMenu = searchParams.get('menu') === 'false';
+  console.error(`test: ${hideMenu}`);
+
+  const handleClick = (event) => {
+    event.preventDefault();
+    setSearchParams(menuObject);
+  };
+
   return (
     <div>
       {hideMenu ?
-      <div>
-        <Header />
-        <Body />
-      </div> :
-      <div>
         <div>
-          <Menu />
+          <Header />
+          <Body />
         </div>
-        <div className="wrapper">
-          <section>
-            <h2>Resume</h2>
-            <Link to={{ pathname: '/resume', search: queryString.stringify(menuObject) }}>Printer Friendly</Link>
-            <Body />
-          </section>
+      : <div>
+          <div>
+            <Menu />
+          </div>
+          <div className="wrapper">
+            <section>
+              <h2>Resume</h2>
+              <button href='/resume' onClick={handleClick}>Printer Friendly</button>
+              <Body />
+            </section>
+          </div>
+          <script src="javascripts/scale.fix.js"></script>
         </div>
-        <script src="javascripts/scale.fix.js"></script>
-      </div>
-      }
+        }
     </div>
   );
 }
