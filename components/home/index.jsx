@@ -34,7 +34,7 @@ const Home = () => {
             playing board games with friends and family.
           </p>
           <h2>In the Community</h2>
-          <p>
+          <span>
             <ul>
               <li>
                 In 2021, I joined the Industry Advisory Board at the Ritchie School for Engineering and Computer Science
@@ -42,16 +42,16 @@ const Home = () => {
               </li>
               <li>
                 Since 2018, I have been a member of the{' '}
-                <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">{' '}
-                  South San Francisco Community Emergency Response Team (CERT)
+                <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">
+                {' '}South San Francisco Community Emergency Response Team (CERT)
                 </a>.
               </li>
               <li>
                 2013 - 2020 I volunteered for the Alzheimer's Association's <a href="https://www.alz.org/bvb">RivALZ</a>
-                program as a coach, broadcaster, and committee member.
+                {' '}program as a coach, broadcaster, and committee member.
               </li>
             </ul>
-          </p>
+          </span>
           <h2>At Work</h2>
           <p>
             I consider myself a technology generalist, having worked professionally in Python, C#, Java (J2EE &amp; Android),
