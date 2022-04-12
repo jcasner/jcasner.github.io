@@ -10,7 +10,7 @@ const LocalLink = ({ name }) => {
   const target = `/${name.toLowerCase() === 'home' ? '' : name}`;
   return (
     <tr>
-      <td width="20">
+      <td width="20px">
         <Link className="icon" to={target}>
           <img className="inline" src={`images/icons8-${name}.png`} alt={name} />
         </Link>

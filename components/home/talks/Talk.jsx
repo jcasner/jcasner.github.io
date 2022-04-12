@@ -8,7 +8,7 @@ const Talk = ({ talk }) => (
       {' '}
       |
       {' '}
-      <a href={talk.confTitle}>{talk.conference}</a>
+      <a href={talk.confLink}>{talk.conference}</a>
     </h3>
     <iframe
       title={talk.title}
@@ -27,7 +27,6 @@ Talk.propTypes = {
   talk: PropTypes.shape({
     title: PropTypes.string.isRequired,
     conference: PropTypes.string.isRequired,
-    confTitle: PropTypes.string.isRequired,
     confLink: PropTypes.string.isRequired,
     about: PropTypes.string.isRequired,
     video: PropTypes.string.isRequired,

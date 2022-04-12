@@ -10,7 +10,7 @@ const Home = () => (
     </div>
     <div className="wrapper">
       <section>
-        <h1>About Me</h1>
+        <h1>About</h1>
         <h2>Bio</h2>
         <p>
           Jared is the CTO at Trayt Health on a mission to improve patient outcomes in at-risk, dependent populations.
@@ -64,7 +64,7 @@ const Home = () => (
           apps, and published open source software. Lately, he&apos;s been thinking much more about security and implementing
           defense-in-depth solutions at every layer of the application. He is comfortable having a deep technical
           conversation or discussing business strategy. He particularly enjoys people and process manaagement. He has had
-          the opportunity to pitch his company and the larger mission to legislators and their aides on Capitol Hill.
+          the opportunity to pitch his company and its larger mission to legislators and their aides on Capitol Hill.
         </p>
         <Talks />
       </section>
