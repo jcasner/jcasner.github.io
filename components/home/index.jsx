@@ -49,11 +49,12 @@ const Home = () => (
               .
             </li>
             <li>
-              2013 - 2020 Jared volunteered for the Alzheimer&apos;s Association&apos;s
+              From 2013 to 2020 Jared volunteered for the Alzheimer&apos;s Association&apos;s
               {' '}
               <a href="https://www.alz.org/bvb">RivALZ</a>
               {' '}
-              program as a coach, broadcaster, and committee member.
+              program as a coach, broadcaster, and committee member. RivALZ Bay Area stopped operating during the COVID
+              pandemic and it is unclear if it will resume operations in the future.
             </li>
           </ul>
         </span>
