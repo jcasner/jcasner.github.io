@@ -14,7 +14,7 @@ const SocialLink = ({ name, icon, link }) => {
     <tr>
       <td width="20px">
         <a className="icon" href={link} target="_blank" rel="noreferrer">
-          <img src={icon} className="inline" alt={`${name} logo`} />
+          <img src={icon} className="inline" alt={name} />
         </a>
       </td>
       <td>
