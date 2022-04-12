@@ -1,18 +1,16 @@
 import React from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
-import queryString from 'query-string';
+import { useSearchParams } from 'react-router-dom';
 
 import Menu from '../menu';
 
 import Body from './sections/Body';
 import Header from './sections/Header';
 
-const menuObject = { 'menu': 'false' };
+const menuObject = { menu: 'false' };
 
 const Resume = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const hideMenu = searchParams.get('menu') === 'false';
-  console.error(`test: ${hideMenu}`);
 
   const handleClick = (event) => {
     event.preventDefault();
@@ -21,27 +19,30 @@ const Resume = () => {
 
   return (
     <div>
-      {hideMenu ?
-        <div>
-          <Header />
-          <Body />
-        </div>
-      : <div>
+      {hideMenu
+        ? (
           <div>
-            <Menu />
+            <Header />
+            <Body />
           </div>
-          <div className="wrapper">
-            <section>
-              <h2>Resume</h2>
-              <button href='/resume' onClick={handleClick}>Printer Friendly</button>
-              <Body />
-            </section>
+        )
+        : (
+          <div>
+            <div>
+              <Menu />
+            </div>
+            <div className="wrapper">
+              <section>
+                <h2>Resume</h2>
+                <a href="/resume" onClick={handleClick}>Printer Friendly</a>
+                <Body />
+              </section>
+            </div>
+            <script src="javascripts/scale.fix.js" />
           </div>
-          <script src="javascripts/scale.fix.js"></script>
-        </div>
-        }
+        )}
     </div>
   );
-}
+};
 
 export default Resume;

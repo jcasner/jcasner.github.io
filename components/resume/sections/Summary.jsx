@@ -15,21 +15,27 @@ const Summary = () => {
           <td>
             <h2>Professional Summary</h2>
             <ul>
-              <li key='yearsWorking'>{yearsWork}+ years designing and developing software</li>
-              <li key='yearsManaging'>{yearsMgmt}+ years managing software developers and other technical resources</li>
-              <li key='pear'>At Pear, grew my teams from ~15 to ~40 while increasing diversity</li>
-              <li key='cnote'>At CNote, ran Product, Engineering, Design, and Security</li>
-              <li key='sindeo'>At Sindeo, turned around a dysfunctional engineering organization</li>
-              <li key='opengov'>At OpenGov, led OpenGov Budget Builder engineering effort from MVP through GA</li>
-              <li key='numenta'>At Numenta, managed design and development for 4 new products from start to finish</li>
-              <li key='aprimo'>At Aprimo, oversaw delivery of a $5M+ .Net Web Development project, on time and on budget</li>
-              <li key='sapient'>At Sapient, developed a bespoke Agile methodology based on Scrum, RUP and XP</li>
+              <li key="yearsWorking">
+                {yearsWork}
+                + years designing and developing software
+              </li>
+              <li key="yearsManaging">
+                {yearsMgmt}
+                + years managing software developers and other technical resources
+              </li>
+              <li key="pear">At Pear, grew my teams from ~15 to ~40 while increasing diversity</li>
+              <li key="cnote">At CNote, ran Product, Engineering, Design, and Security</li>
+              <li key="sindeo">At Sindeo, turned around a dysfunctional engineering organization</li>
+              <li key="opengov">At OpenGov, led OpenGov Budget Builder engineering effort from MVP through GA</li>
+              <li key="numenta">At Numenta, managed design and development for 4 new products from start to finish</li>
+              <li key="aprimo">At Aprimo, oversaw delivery of a $5M+ .Net Web Development project, on time and on budget</li>
+              <li key="sapient">At Sapient, developed a bespoke Agile methodology based on Scrum, RUP and XP</li>
             </ul>
           </td>
         </tr>
       </tbody>
     </table>
-  )
-}
+  );
+};
 
 export default Summary;

@@ -2,25 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Notes from './Notes';
-import Position from './Position';
+import Position, { JobPropType } from './Position';
 import { getDateCell } from './dateUtils';
 
 const propTypes = {
   company: PropTypes.string.isRequired,
-  details: PropTypes.object.isRequired,
+  details: JobPropType.isRequired,
 };
 
-const Company = ({company, details}) => {
+const Company = ({ company, details }) => {
   const positions = [];
-  var index = 0;
+  let index = 0;
   Object.keys(details.positions).forEach((job) => {
     positions.push(
-      <Position key={details.positions[job].title} job={details.positions[job]} />
+      <Position key={details.positions[job].title} job={details.positions[job]} />,
     );
     positions.push(
-      <Notes key={index} job={details.positions[job]} />
+      <Notes key={index} job={details.positions[job]} />,
     );
-    index++;
+    index += 1;
   });
 
   return (
@@ -35,7 +35,7 @@ const Company = ({company, details}) => {
       </tbody>
     </table>
   );
-}
+};
 
 Company.propTypes = propTypes;
 

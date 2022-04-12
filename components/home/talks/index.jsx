@@ -12,11 +12,9 @@ const talks = [
   },
 ];
 
-export default () => {
-  return (
-    <div>
-      <h2>Talks</h2>
-      {talks.map(talk => <Talk talk={talk} key={talk} />)}
-    </div>
-  );
-};
+export default () => (
+  <div>
+    <h2>Talks</h2>
+    {talks.map((talk) => <Talk talk={talk} key={talk} />)}
+  </div>
+);

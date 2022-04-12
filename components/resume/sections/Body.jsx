@@ -5,15 +5,13 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Summary from './Summary';
 
-const Body = () => {
-  return (
-    <div>
-      <Summary />
-      <Experience />
-      <Education />
-      <Skills />
-    </div>
-  );
-}
+const Body = () => (
+  <div>
+    <Summary />
+    <Experience />
+    <Education />
+    <Skills />
+  </div>
+);
 
 export default Body;

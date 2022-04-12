@@ -4,6 +4,7 @@ import moment from 'moment-mini';
 
 import Company from './experience/Company';
 
+/* eslint-disable max-len */
 const Experience = () => {
   const experience = {
     'Trayt Health': {
@@ -13,7 +14,7 @@ const Experience = () => {
         {
           title: 'CTO',
           notes: [],
-        }
+        },
       ],
     },
     'Pear Therapeutics': {
@@ -23,6 +24,7 @@ const Experience = () => {
       positions: [
         {
           title: 'Sr. Director, Engineering',
+          location: 'San Francisco, CA',
           start: moment('2021-07-01'),
           notes: [
             'Responsible for global initiative engineering teams (platform, web, devops, support, salesforce)',
@@ -34,6 +36,7 @@ const Experience = () => {
         },
         {
           title: 'Director, Engineering',
+          location: 'San Francisco, CA',
           start: moment('2020-06-15'),
           end: moment('2021-06-30'),
           notes: [
@@ -42,14 +45,15 @@ const Experience = () => {
             'Introduced incident response plans and standardized development practices across engineering',
           ],
         },
-      ]
+      ],
     },
     CNote: {
-      location: 'Oakland, CA',
+      location: 'San Francisco, CA',
       start: moment('2017-09-25'),
       positions: [
         {
           title: 'Advisor, Technology and Strategy',
+          location: 'San Francisco, CA',
           start: moment('2020-06-15'),
           notes: [
             'Advise engineering team on technical strategy and growth',
@@ -57,6 +61,7 @@ const Experience = () => {
         },
         {
           title: 'VP, Engineering',
+          location: 'San Francisco, CA',
           start: moment('2017-09-25'),
           end: moment('2020-06-15'),
           notes: [
@@ -65,9 +70,9 @@ const Experience = () => {
             'Built a 2-sided loan marketplace, underwriting engine, and loan servicing engine',
             'Implemented blue/green deployments, full CI/CD, and achieved 99.999%+ uptime since 2018',
             'Actively involved in fundraising and pitching to Angels and VCs',
-          ]
-        }
-      ]
+          ],
+        },
+      ],
     },
     Sindeo: {
       location: 'San Francisco, CA',
@@ -76,15 +81,16 @@ const Experience = () => {
       positions: [
         {
           title: 'Director, Engineering',
+          location: 'San Francisco, CA',
           notes: [
             'Led technical due diligence efforts when Sindeo was acquired by RenRen',
             'Responsible for all of engineering at Sindeo',
             'Managed multiple 3rd party vendors, contracts, etc',
             'Restructured the engineering team and added several key hires (doubled team size)',
             'Managed and mentored 8 engineers',
-          ]
+          ],
         },
-      ]
+      ],
     },
     OpenGov: {
       location: 'Redwood City, CA',
@@ -100,9 +106,9 @@ const Experience = () => {
             'Managed 3rd party vendors for new product development and maintenance initiatives',
             'Worked closely with Product and Design to analyze customer needs, define requirements, and scope projects',
             'Oversaw the OpenGov Budget Builder engineering effort from concept through successful GA',
-          ]
-        }
-      ]
+          ],
+        },
+      ],
     },
     Numenta: {
       location: 'Redwood City, CA',
@@ -119,7 +125,7 @@ const Experience = () => {
             'Managed full-stack engineering efforts of all commercial software',
             'Led the transition to open source for all commercial software',
             'Drove continuous data-driven refinement of engineering processes',
-          ]
+          ],
         },
         {
           title: 'Director, Solutions Engineering',
@@ -129,10 +135,10 @@ const Experience = () => {
           notes: [
             'Owned the engineering of client libraries (python, .net, javascript, etc) and all customer facing development activity',
             'Served as the internal voice of the customer and user champion',
-            'Spoke at conferences and special interest groups to advocate new approaches to data science and evangelize technology'
-          ]
-        }
-      ]
+            'Spoke at conferences and special interest groups to advocate new approaches to data science and evangelize technology',
+          ],
+        },
+      ],
     },
     Aprimo: {
       location: 'US and UK',
@@ -149,8 +155,8 @@ const Experience = () => {
             'Managed all field-based software developers and managers, QA engineers, infrastructure specialists and data analysts in EMEA',
             'Built the technical team in EMEA, growing the team from 1 to 11',
             'Defined and refined methodology and processes across the technical services practice globally',
-            'Developed a new offshore software development team, from recruitment through operational management'
-          ]
+            'Developed a new offshore software development team, from recruitment through operational management',
+          ],
         },
         {
           title: 'Sr. Technical Consultant',
@@ -160,10 +166,10 @@ const Experience = () => {
           notes: [
             'Customers included Xerox, Warner Brothers, Wal-Mart, Ericsson, Kaiser Permanente, Prudential, and Adobe',
             'Custom software and integrations using the .Net stack (C#), MSSQL Server, Oracle, etc.',
-            'Led development teams and ensured on time and on budget delivery of enhanced functionality'
-          ]
-        }
-      ]
+            'Led development teams and ensured on time and on budget delivery of enhanced functionality',
+          ],
+        },
+      ],
     },
     Sapient: {
       location: 'Denver, CO',
@@ -175,10 +181,10 @@ const Experience = () => {
           notes: [
             'Custom software applications for the federal government using Java, Javascript, and Oracle',
             'Led an operations and maintenance team, including planning, tasking and teaching the rest of the team',
-            'Held a Top Secret / SCI clearance'
-          ]
-        }
-      ]
+            'Held a Top Secret / SCI clearance',
+          ],
+        },
+      ],
     },
     Visa: {
       location: 'Denver, CO',
@@ -188,10 +194,10 @@ const Experience = () => {
         {
           title: 'Research Analyst, Client Management',
           notes: [
-            'Technical support for banks and other large processors in the Visa global network'
-          ]
-        }
-      ]
+            'Technical support for banks and other large processors in the Visa global network',
+          ],
+        },
+      ],
     },
   };
 
@@ -200,7 +206,7 @@ const Experience = () => {
     Object.keys(experience).forEach((key) => {
       if (moment().diff(experience[key].start) >= 0) {
         result.push(
-          <Company key={key} company={key} details={experience[key]} />
+          <Company key={key} company={key} details={experience[key]} />,
         );
       }
     });

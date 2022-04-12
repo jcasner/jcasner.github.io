@@ -4,29 +4,25 @@ import moment from 'moment-mini';
 
 import { getDateCell } from './dateUtils';
 
+export const JobPropType = PropTypes.shape({
+  title: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  start: PropTypes.instanceOf(moment),
+  end: PropTypes.instanceOf(moment),
+  notes: PropTypes.arrayOf(PropTypes.string).isRequired,
+});
+
 const propTypes = {
-  job: PropTypes.shape({
-    location: PropTypes.string.isRequired,
-    start: PropTypes.instanceOf(moment).isRequired,
-    end: PropTypes.instanceOf(moment),
-    positions: PropTypes.arrayOf(PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      start: PropTypes.instanceOf(moment).isRequired,
-      end: PropTypes.instanceOf(moment),
-      notes: PropTypes.arrayOf(PropTypes.string).isRequired,
-    })).isRequired
-  }).isRequired,
+  job: JobPropType.isRequired,
 };
 
-const Position = ({ job }) => {
-  return (
-    <tr key={job.title}>
-      <td><strong>{job.title}</strong></td>
-      <td>{job.location ? job.location : ''}</td>
-      <td>{job.start ? getDateCell(job.start, job.end, false) : ''}</td>
-    </tr>
-  );
-}
+const Position = ({ job }) => (
+  <tr key={job.title}>
+    <td><strong>{job.title}</strong></td>
+    <td>{job.location}</td>
+    <td>{job.start ? getDateCell(job.start, job.end, false) : ''}</td>
+  </tr>
+);
 
 Position.propTypes = propTypes;
 
