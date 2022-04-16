@@ -24,8 +24,8 @@ const Experience = () => {
       positions: [
         {
           title: 'Sr. Director, Engineering',
-          location: 'San Francisco, CA',
           start: moment('2021-07-01'),
+          end: moment('2022-04-15'),
           notes: [
             'Responsible for global initiative engineering teams (platform, web, devops, support, salesforce)',
             'Grew my engineering teams from 25 to 40 direct and indirect reports (FTEs + Contractors) in 6 months with zero regrettable attrition',
@@ -36,7 +36,6 @@ const Experience = () => {
         },
         {
           title: 'Director, Engineering',
-          location: 'San Francisco, CA',
           start: moment('2020-06-15'),
           end: moment('2021-06-30'),
           notes: [
@@ -53,15 +52,14 @@ const Experience = () => {
       positions: [
         {
           title: 'Advisor, Technology and Strategy',
-          location: 'San Francisco, CA',
           start: moment('2020-06-15'),
           notes: [
-            'Advise engineering team on technical strategy and growth',
+            'Advise engineering team on architecture and growth',
+            'Advise CEO and Product team on technical strategy',
           ],
         },
         {
           title: 'VP, Engineering',
-          location: 'San Francisco, CA',
           start: moment('2017-09-25'),
           end: moment('2020-06-15'),
           notes: [
@@ -81,8 +79,8 @@ const Experience = () => {
       positions: [
         {
           title: 'Director, Engineering',
-          location: 'San Francisco, CA',
           notes: [
+            'Company ceased operating in June 2017 after running out of capital',
             'Led technical due diligence efforts when Sindeo was acquired by RenRen',
             'Responsible for all of engineering at Sindeo',
             'Managed multiple 3rd party vendors, contracts, etc',
@@ -119,7 +117,6 @@ const Experience = () => {
           title: 'Director, Application Engineering',
           start: moment('2013-07-01'),
           end: moment('2015-10-31'),
-          location: 'Redwood City, CA',
           notes: [
             'Led development of 4 applications, 2 of which were subsequently licensed commercially',
             'Managed full-stack engineering efforts of all commercial software',
@@ -131,7 +128,6 @@ const Experience = () => {
           title: 'Director, Solutions Engineering',
           start: moment('2012-10-01'),
           end: moment('2013-06-30'),
-          location: 'Redwood City, CA',
           notes: [
             'Owned the engineering of client libraries (python, .net, javascript, etc) and all customer facing development activity',
             'Served as the internal voice of the customer and user champion',
