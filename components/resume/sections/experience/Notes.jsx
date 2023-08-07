@@ -1,8 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { JobPropType } from './Position';
 
 const propTypes = {
-  job: PropTypes.arrayOf(PropTypes.string).isRequired,
+  job: JobPropType.isRequired,
 };
 
 const Notes = ({ job }) => {

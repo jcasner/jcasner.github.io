@@ -7,12 +7,13 @@ const propTypes = {
 };
 
 const LocalLink = ({ name }) => {
-  const target = `/${name.toLowerCase() === 'home' ? '' : name}`;
+  const linkName = name.toLowerCase();
+  const target = `/${linkName === 'home' ? '' : linkName}`;
   return (
     <tr>
       <td width="20px">
         <Link className="icon" to={target}>
-          <img className="inline" src={`images/icons8-${name}.png`} alt={name} />
+          <img className="inline" src={`images/icons8-${linkName}.png`} alt={name} />
         </Link>
       </td>
       <td>

@@ -5,11 +5,11 @@ import moment from 'moment-mini';
 import { getDateCell } from './dateUtils';
 
 export const JobPropType = PropTypes.shape({
-  title: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  location: PropTypes.string,
   start: PropTypes.instanceOf(moment),
   end: PropTypes.instanceOf(moment),
-  notes: PropTypes.arrayOf(PropTypes.string).isRequired,
+  notes: PropTypes.arrayOf(PropTypes.string),
 });
 
 const propTypes = {

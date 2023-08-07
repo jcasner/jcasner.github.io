@@ -8,7 +8,7 @@ import Company from './experience/Company';
 const Experience = () => {
   const experience = {
     'Trayt Health': {
-      location: 'Menlo Park, CA',
+      location: 'Palo Alto, CA',
       start: moment('2022-04-18'),
       positions: [
         {
