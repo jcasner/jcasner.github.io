@@ -13,7 +13,12 @@ const Experience = () => {
       positions: [
         {
           title: 'CTO',
-          notes: [],
+          notes: [
+            'Responsible for engineering, quality, security, data, and IT',
+            'Own security and compliance, including policies and procedures, training, and change management',
+            'Oversee technology strategy, roadmap, and delivery',
+            'Recruit, retain, and mentor globally distributed engineering, quality, data, and project management teams',
+          ],
         },
       ],
     },
