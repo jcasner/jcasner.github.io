@@ -13,10 +13,7 @@ const Home = () => (
         <h1>About</h1>
         <h2>Bio</h2>
         <p>
-          Jared is the CTO at Trayt Health on a mission to improve patient outcomes in at-risk, dependent populations.
-        </p>
-        <p>
-          In his roughly 20 years pf experience, Jared has worked for companies from 3 to 30,000 employees across a
+          In his roughly 20 years of experience, Jared has worked for companies from 3 to 30,000 employees across a
           variety of industries. His work has taken him to more than 20 countries. He&apos;s worked across the stack from
           pulling cables and configuring networks to tweaking CSS for pixel perfect UI, both as an individual
           contributor and as a leader.
@@ -36,15 +33,18 @@ const Home = () => (
         <span>
           <ul>
             <li>
+              Since 2021, Jared has coached youth sports for his daughters.
+            </li>
+            <li>
               In 2021, Jared joined the Industry Advisory Board at the Ritchie School for Engineering and Computer Science
-              at DU. He has been leading the Bay Area Alumni group since 2013.
+              at DU. He has been a volunteer leader in the Bay Area Alumni group since 2013.
             </li>
             <li>
               Since 2018, Jared has been a member of the
               {' '}
               <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">
                 {' '}
-                South San Francisco Community Emergency Response Team (CERT)
+                South San Francisco Community Emergency Response Team (CERT) and is a licensed HAM radio operator.
               </a>
               .
             </li>
