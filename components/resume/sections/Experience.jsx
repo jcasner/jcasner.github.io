@@ -9,15 +9,17 @@ const Experience = () => {
   const experience = {
     'Trayt Health': {
       location: 'Palo Alto, CA',
-      start: moment('2022-04-18'),
+      start: moment('2022-04-15'),
+      end: moment('2023-08-15'),
       positions: [
         {
           title: 'CTO',
           notes: [
             'Responsible for engineering, quality, security, data, and IT',
-            'Own security and compliance, including policies and procedures, training, and change management',
-            'Oversee technology strategy, roadmap, and delivery',
-            'Recruit, retain, and mentor globally distributed engineering, quality, data, and project management teams',
+            'Hands on leader for a ~20 person, globally distributed team using Node.js, React, ReactNative, Terraform, and python on AWS',
+            'Led the migration of APIs from EC2 to ECS for horizontal scalability, improved reliability, and decreased cost',
+            'Rolled out data pipelines and AWS Sagemaker for data science initiatives',
+            'Achieved SOC2 Type 2 attestation and HIPAA and TX-RAMP compliance',
           ],
         },
       ],
@@ -29,24 +31,12 @@ const Experience = () => {
       positions: [
         {
           title: 'Sr. Director, Engineering',
-          start: moment('2021-07-01'),
-          end: moment('2022-04-15'),
           notes: [
             'Responsible for global initiative engineering teams (platform, web, devops, support, salesforce)',
-            'Grew my engineering teams from 25 to 40 direct and indirect reports (FTEs + Contractors) in 6 months with zero regrettable attrition',
-            'Instituted and standardized recruiting processes to focus on DEI and standardized onboarding across engineering',
-            'Oversaw rollout of our first microservices, BFFs, and micro-frontends the transition from ElasticBeanstalk to kubernetes',
+            'Grew my globally distributed engineering teams from 15 to 40 reports with zero regrettable attrition',
+            'Led microservices implementation and rollout to increase flexibility and development speed with zero downtime (node.js, React, Pulumi, Kubernetes, AWS EKS, Gitlab)',
+            'Fixed data pipeline problems to bulletproof reliability and scalability of Data Lake and Warehouse (python, AWS Glue, Redshift)',
             'Acted as interim head of security for 3 months while hiring a new security team',
-          ],
-        },
-        {
-          title: 'Director, Engineering',
-          start: moment('2020-06-15'),
-          end: moment('2021-06-30'),
-          notes: [
-            'Responsible for global initiative engineering teams (platform, web, devops, data, salesforce)',
-            'Grew my engineering teams from 15 to 25 direct and indirect reports, including heads of DevOps and Data',
-            'Introduced incident response plans and standardized development practices across engineering',
           ],
         },
       ],
@@ -70,8 +60,8 @@ const Experience = () => {
           notes: [
             'Responsible for product, engineering, design, and security',
             'Managed a lean, distributed organization with high quality, rapid releases',
-            'Built a 2-sided loan marketplace, underwriting engine, and loan servicing engine',
-            'Implemented blue/green deployments, full CI/CD, and achieved 99.999%+ uptime since 2018',
+            'Built a 2-sided loan marketplace, underwriting engine, and loan servicing engine using node.js and React on AWS',
+            'Implemented blue/green deployments, full CI/CD, and achieved 99.999% uptime during my tenure',
             'Actively involved in fundraising and pitching to Angels and VCs',
           ],
         },
@@ -85,12 +75,10 @@ const Experience = () => {
         {
           title: 'Director, Engineering',
           notes: [
-            'Company ceased operating in June 2017 after running out of capital',
             'Led technical due diligence efforts when Sindeo was acquired by RenRen',
-            'Responsible for all of engineering at Sindeo',
+            'Responsible for all of engineering at Sindeo using Python (Django) and React on AWS',
             'Managed multiple 3rd party vendors, contracts, etc',
             'Restructured the engineering team and added several key hires (doubled team size)',
-            'Managed and mentored 8 engineers',
           ],
         },
       ],
@@ -104,11 +92,9 @@ const Experience = () => {
           title: 'Director, Engineering',
           notes: [
             'Pioneered and championed internal, company-wide hackathons',
-            'Developed a career skills matrix and salary bands for Engineering',
             'Recruited, managed, and mentored a team of 12 front-end and full-stack engineers and managers',
             'Managed 3rd party vendors for new product development and maintenance initiatives',
-            'Worked closely with Product and Design to analyze customer needs, define requirements, and scope projects',
-            'Oversaw the OpenGov Budget Builder engineering effort from concept through successful GA',
+            'Oversaw the new OpenGov Budget Builder engineering effort through successful GA using Ruby/Rails, node, and React on AWS',
           ],
         },
       ],
