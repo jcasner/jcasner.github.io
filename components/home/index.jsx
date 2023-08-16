@@ -33,7 +33,7 @@ const Home = () => (
         <span>
           <ul>
             <li>
-              Since 2021, Jared has coached youth sports for his daughters.
+              Jared coaches soccer for his daughters through AYSO and sits on the AYSO region 249 board.
             </li>
             <li>
               In 2021, Jared joined the Industry Advisory Board at the Ritchie School for Engineering and Computer Science
