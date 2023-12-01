@@ -7,6 +7,19 @@ import Company from './experience/Company';
 /* eslint-disable max-len */
 const Experience = () => {
   const experience = {
+    'Blacksmith InfoSec': {
+      location: 'San Bruno, CA',
+      start: moment('2023-09-05'),
+      positions: [
+        {
+          title: 'Cofounder',
+          notes: [
+            'Building a new company to help small and medium businesses with their security needs',
+            'Built a beta-ready MVP in 10 weeks',
+          ],
+        },
+      ],
+    },
     'Trayt Health': {
       location: 'Palo Alto, CA',
       start: moment('2022-04-15'),

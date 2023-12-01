@@ -13,10 +13,15 @@ const Home = () => (
         <h1>About</h1>
         <h2>Bio</h2>
         <p>
-          In his roughly 20 years of experience, Jared has worked for companies from 3 to 30,000 employees across a
+          In his 20+ years of experience, Jared has worked for companies from 3 to 30,000 employees across a
           variety of industries. His work has taken him to more than 20 countries. He&apos;s worked across the stack from
           pulling cables and configuring networks to tweaking CSS for pixel perfect UI, both as an individual
-          contributor and as a leader.
+          contributor and as a leader. He is the cofounder of
+          {' '}
+          <a href="https://blacksmithinfosec.com" target="_blank" rel="noreferrer">
+            Blacksmith InfoSec
+          </a>
+          , a company focused on helping small and medium businesses with their security needs.
         </p>
         <p>
           Jared holds a BS in Computer Science from the University of Denver and an MBA from the University of
@@ -44,7 +49,7 @@ const Home = () => (
               {' '}
               <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">
                 {' '}
-                South San Francisco Community Emergency Response Team (CERT) and is a licensed HAM radio operator.
+                South San Francisco Community Emergency Response Team (CERT) and is a licensed HAM radio operator (K2CAZ)
               </a>
               .
             </li>
@@ -53,8 +58,7 @@ const Home = () => (
               {' '}
               <a href="https://www.alz.org/bvb">RivALZ</a>
               {' '}
-              program as a coach, broadcaster, and committee member. RivALZ Bay Area stopped operating during the COVID
-              pandemic and it is unclear if it will resume operations in the future.
+              program as a coach, broadcaster, and committee member. RivALZ Bay Area ceased operations due to COVID-19.
             </li>
           </ul>
         </span>
