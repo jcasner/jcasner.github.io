@@ -14,8 +14,7 @@ const Experience = () => {
         {
           title: 'Cofounder',
           notes: [
-            'Building a new company to help small and medium businesses with their security needs',
-            'Built a beta-ready MVP in 10 weeks',
+            'Built a SaaS application for SMBs to craft and manage their security program',
           ],
         },
       ],
