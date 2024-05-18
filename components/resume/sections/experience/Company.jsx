@@ -23,11 +23,15 @@ const Company = ({ company, details }) => {
     index += 1;
   });
 
+  const companyHeader = (
+    details.url ? <a href={details.url} target="_blank" rel="noreferrer">{company}</a> : company
+  );
+
   return (
     <table>
       <tbody>
         <tr>
-          <td><strong><big>{company}</big></strong></td>
+          <td><strong><big>{companyHeader}</big></strong></td>
           <td>{details.location}</td>
           <td>{getDateCell(details.start, details.end, true)}</td>
         </tr>

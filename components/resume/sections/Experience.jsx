@@ -8,6 +8,7 @@ import Company from './experience/Company';
 const Experience = () => {
   const experience = {
     'Blacksmith InfoSec': {
+      url: 'https://blacksmithinfosec.com',
       location: 'San Bruno, CA',
       start: moment('2023-09-05'),
       positions: [

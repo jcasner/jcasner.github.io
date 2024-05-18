@@ -6,7 +6,7 @@ import SocialLink from './SocialLink';
 const Menu = () => (
   <header id="ignorePDF">
     <h1>Jared Casner</h1>
-    <img src="images/jared-250-250-avatar.jpg" alt="Headshot of Jared" />
+    <img src="images/jared-polo-square.jpg" alt="Headshot of Jared" />
     <nav>
       <table className="navigation">
         <tbody>

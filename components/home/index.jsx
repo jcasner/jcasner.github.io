@@ -49,9 +49,10 @@ const Home = () => (
               {' '}
               <a href="https://www.ssf.net/departments/fire/emergency-preparedness/community-emergency-response-team-cert">
                 {' '}
-                South San Francisco Community Emergency Response Team (CERT) and is a licensed HAM radio operator (K2CAZ)
+                South San Francisco Community Emergency Response Team (CERT)
               </a>
-              .
+              {' '}
+              and is a licensed HAM radio operator (K2CAZ).
             </li>
             <li>
               From 2013 to 2020 Jared volunteered for the Alzheimer&apos;s Association&apos;s
