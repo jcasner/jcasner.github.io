@@ -23,6 +23,10 @@ const Talk = ({ talk, last }) => (
   </div>
 );
 
+Talk.defaultProps = {
+  last: false,
+};
+
 Talk.propTypes = {
   talk: PropTypes.shape({
     title: PropTypes.string.isRequired,
@@ -30,8 +34,8 @@ Talk.propTypes = {
     confLink: PropTypes.string.isRequired,
     about: PropTypes.string.isRequired,
     video: PropTypes.string.isRequired,
-    last: PropTypes.bool,
   }).isRequired,
+  last: PropTypes.bool,
 };
 
 export default Talk;
