@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import moment from 'moment-mini';
 
 import { getDateCell } from './dateUtils';
 
 export const JobPropType = PropTypes.shape({
   title: PropTypes.string,
   location: PropTypes.string,
-  start: PropTypes.instanceOf(moment),
-  end: PropTypes.instanceOf(moment),
+  start: PropTypes.instanceOf(Date),
+  end: PropTypes.instanceOf(Date),
   notes: PropTypes.arrayOf(PropTypes.string),
 });
 

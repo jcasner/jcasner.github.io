@@ -1,7 +1,5 @@
 import React from 'react';
 
-import moment from 'moment-mini';
-
 import Company from './experience/Company';
 
 /* eslint-disable max-len */
@@ -10,7 +8,7 @@ const Experience = () => {
     'Blacksmith InfoSec': {
       url: 'https://blacksmithinfosec.com',
       location: 'San Bruno, CA',
-      start: moment('2023-09-05'),
+      start: new Date('2023-09-05'),
       positions: [
         {
           title: 'Cofounder',
@@ -22,8 +20,8 @@ const Experience = () => {
     },
     'Trayt Health': {
       location: 'Palo Alto, CA',
-      start: moment('2022-04-15'),
-      end: moment('2023-08-15'),
+      start: new Date('2022-04-15'),
+      end: new Date('2023-08-15'),
       positions: [
         {
           title: 'CTO',
@@ -39,8 +37,8 @@ const Experience = () => {
     },
     'Pear Therapeutics': {
       location: 'San Francisco, CA',
-      start: moment('2020-06-15'),
-      end: moment('2022-04-15'),
+      start: new Date('2020-06-15'),
+      end: new Date('2022-04-15'),
       positions: [
         {
           title: 'Sr. Director, Engineering',
@@ -56,11 +54,11 @@ const Experience = () => {
     },
     CNote: {
       location: 'San Francisco, CA',
-      start: moment('2017-09-25'),
+      start: new Date('2017-09-25'),
       positions: [
         {
           title: 'Advisor, Technology and Strategy',
-          start: moment('2020-06-15'),
+          start: new Date('2020-06-15'),
           notes: [
             'Advise engineering team on architecture and growth',
             'Advise CEO and Product team on technical strategy',
@@ -68,8 +66,8 @@ const Experience = () => {
         },
         {
           title: 'VP, Engineering',
-          start: moment('2017-09-25'),
-          end: moment('2020-06-15'),
+          start: new Date('2017-09-25'),
+          end: new Date('2020-06-15'),
           notes: [
             'Responsible for product, engineering, design, and security',
             'Managed a lean, distributed organization with high quality, rapid releases',
@@ -82,8 +80,8 @@ const Experience = () => {
     },
     Sindeo: {
       location: 'San Francisco, CA',
-      start: moment('2017-02-14'),
-      end: moment('2017-06-20'),
+      start: new Date('2017-02-14'),
+      end: new Date('2017-06-20'),
       positions: [
         {
           title: 'Director, Engineering',
@@ -98,8 +96,8 @@ const Experience = () => {
     },
     OpenGov: {
       location: 'Redwood City, CA',
-      start: moment('2015-11-02'),
-      end: moment('2017-02-03'),
+      start: new Date('2015-11-02'),
+      end: new Date('2017-02-03'),
       positions: [
         {
           title: 'Director, Engineering',
@@ -114,13 +112,13 @@ const Experience = () => {
     },
     Numenta: {
       location: 'Redwood City, CA',
-      start: moment('2012-10-01'),
-      end: moment('2015-10-31'),
+      start: new Date('2012-10-01'),
+      end: new Date('2015-10-31'),
       positions: [
         {
           title: 'Director, Application Engineering',
-          start: moment('2013-07-01'),
-          end: moment('2015-10-31'),
+          start: new Date('2013-07-01'),
+          end: new Date('2015-10-31'),
           notes: [
             'Led development of 4 applications, 2 of which were subsequently licensed commercially',
             'Managed full-stack engineering efforts of all commercial software',
@@ -130,8 +128,8 @@ const Experience = () => {
         },
         {
           title: 'Director, Solutions Engineering',
-          start: moment('2012-10-01'),
-          end: moment('2013-06-30'),
+          start: new Date('2012-10-01'),
+          end: new Date('2013-06-30'),
           notes: [
             'Owned the engineering of client libraries (python, .net, javascript, etc) and all customer facing development activity',
             'Served as the internal voice of the customer and user champion',
@@ -142,13 +140,13 @@ const Experience = () => {
     },
     Aprimo: {
       location: 'US and UK',
-      start: moment('2007-10-01'),
-      end: moment('2012-10-01'),
+      start: new Date('2007-10-01'),
+      end: new Date('2012-10-01'),
       positions: [
         {
           title: 'Regional Manager, Technical Services, EMEA',
-          start: moment('2010-02-01'),
-          end: moment('2012-10-01'),
+          start: new Date('2010-02-01'),
+          end: new Date('2012-10-01'),
           location: 'London, UK',
           notes: [
             'Oversaw all custom software development activities in Europe, the Middle East, and Africa (EMEA), from design through delivery',
@@ -160,8 +158,8 @@ const Experience = () => {
         },
         {
           title: 'Sr. Technical Consultant',
-          start: moment('2007-10-01'),
-          end: moment('2010-02-01'),
+          start: new Date('2007-10-01'),
+          end: new Date('2010-02-01'),
           location: 'Denver, CO',
           notes: [
             'Customers included Xerox, Warner Brothers, Wal-Mart, Ericsson, Kaiser Permanente, Prudential, and Adobe',
@@ -173,8 +171,8 @@ const Experience = () => {
     },
     Sapient: {
       location: 'Denver, CO',
-      start: moment('2005-06-01'),
-      end: moment('2007-10-01'),
+      start: new Date('2005-06-01'),
+      end: new Date('2007-10-01'),
       positions: [
         {
           title: 'Technical Consultant',
@@ -188,8 +186,8 @@ const Experience = () => {
     },
     Visa: {
       location: 'Denver, CO',
-      start: moment('2004-02-01'),
-      end: moment('2005-06-01'),
+      start: new Date('2004-02-01'),
+      end: new Date('2005-06-01'),
       positions: [
         {
           title: 'Research Analyst, Client Management',
@@ -204,7 +202,7 @@ const Experience = () => {
   const getExperience = () => {
     const result = [];
     Object.keys(experience).forEach((key) => {
-      if (moment().diff(experience[key].start) >= 0) {
+      if (experience[key].start <= Date.now()) {
         result.push(
           <Company key={key} company={key} details={experience[key]} />,
         );

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Talk = ({ talk }) => (
+const Talk = ({ talk, last }) => (
   <div>
     <h3>
       {talk.title}
@@ -15,11 +15,11 @@ const Talk = ({ talk }) => (
       width="448"
       height="252"
       src={talk.video}
-      frameBorder="0"
       allow="accelerometer; encrypted-media; gyroscope"
       allowFullScreen
     />
     <span style={{ display: 'block', maxWidth: 448 }}>{talk.about}</span>
+    {!last && <hr />}
   </div>
 );
 
@@ -30,6 +30,7 @@ Talk.propTypes = {
     confLink: PropTypes.string.isRequired,
     about: PropTypes.string.isRequired,
     video: PropTypes.string.isRequired,
+    last: PropTypes.bool,
   }).isRequired,
 };
 
