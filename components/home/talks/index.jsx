@@ -17,6 +17,20 @@ const talks = [
     about: 'A wide ranging conversation about leadership, discipline, compliance, and sports',
     video: 'https://www.youtube.com/embed/JBgqjho3KLI',
   },
+  {
+    title: 'MSP Initiative Interview',
+    conference: 'MSP Initiative',
+    confLink: 'https://www.mspinitiative.com/',
+    about: 'A wide ranging conversation about security, compliance, and NFC East Rivalries',
+    video: 'https://www.youtube.com/embed/NzEa2mLYDNk',
+  },
+  {
+    title: 'How I Built it with AWS',
+    conference: 'AWS Startups',
+    confLink: 'https://aws.amazon.com/startups/showcase/startup-details/bd8931e1-e364-4caf-976e-3b9b2ef068fd',
+    about: 'Mike and I were interviewed by AWS about how we built the company, and what we learned along the way',
+    video: 'https://player.twitch.tv/?video=2165760314&parent=localhost&parent=jared.casner.us&&autoplay=false',
+  },
 ];
 
 export default () => (
