@@ -21,7 +21,7 @@ const talks = [
     title: 'MSP Initiative Interview',
     conference: 'MSP Initiative',
     confLink: 'https://www.mspinitiative.com/',
-    about: 'A wide ranging conversation about security, compliance, and NFC East Rivalries',
+    about: 'Security, compliance, and NFC East Rivalries - what more could you want?',
     video: 'https://www.youtube.com/embed/NzEa2mLYDNk',
   },
   {
