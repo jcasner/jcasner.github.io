@@ -1,8 +1,252 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*! ../menu */
+
+/*! ./Education */
+
+/*! ./Experience */
+
+/*! ./LocalLink */
+
+/*! ./Notes */
+
+/*! ./Position */
+
+/*! ./Skills */
+
+/*! ./SocialLink */
+
+/*! ./Summary */
+
+/*! ./Talk */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-dom-client.development.js */
+
+/*! ./cjs/react-dom.development.js */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./cjs/react-jsx-runtime.development.js */
+
+/*! ./cjs/react.development.js */
+
+/*! ./cjs/scheduler.development.js */
+
+/*! ./components/App */
+
+/*! ./dateUtils */
+
+/*! ./education/Degree */
+
+/*! ./experience/Company */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./home */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./lib/has */
+
+/*! ./not-found */
+
+/*! ./resume */
+
+/*! ./sections/Body */
+
+/*! ./sections/Header */
+
+/*! ./talks */
+
+/*! object-assign */
+
+/*! prop-types */
+
+/*! react */
+
+/*! react-dom */
+
+/*! react-dom/client */
+
+/*! react-is */
+
+/*! react-router-dom */
+
+/*! react/jsx-runtime */
+
+/*! scheduler */
+
+/*!*******************!*\
+  !*** ./index.jsx ***!
+  \*******************/
+
+/*!****************************!*\
+  !*** ./components/App.jsx ***!
+  \****************************/
+
+/*!***********************************!*\
+  !*** ./components/home/index.jsx ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./components/menu/index.jsx ***!
+  \***********************************/
+
+/*!*************************************!*\
+  !*** ./components/resume/index.jsx ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./node_modules/react/index.js ***!
+  \*************************************/
+
+/*!***************************************!*\
+  !*** ./components/menu/LocalLink.jsx ***!
+  \***************************************/
+
+/*!****************************************!*\
+  !*** ./components/home/talks/Talk.jsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./components/menu/SocialLink.jsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./components/not-found/index.jsx ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./components/home/talks/index.jsx ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/react-dom/index.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/scheduler/index.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./node_modules/react-dom/client.js ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ./node_modules/react/jsx-runtime.js ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./node_modules/prop-types/lib/has.js ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./components/resume/sections/Body.jsx ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+
+/*!***********************************************!*\
+  !*** ./components/resume/sections/Header.jsx ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./components/resume/sections/Skills.jsx ***!
+  \***********************************************/
+
+/*!************************************************!*\
+  !*** ./components/resume/sections/Summary.jsx ***!
+  \************************************************/
+
+/*!**************************************************!*\
+  !*** ./components/resume/sections/Education.jsx ***!
+  \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./components/resume/sections/Experience.jsx ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/prop-types/checkPropTypes.js ***!
+  \***************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/react/cjs/react.development.js ***!
+  \*****************************************************/
+
+/*!*********************************************************!*\
+  !*** ./components/resume/sections/education/Degree.jsx ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./components/resume/sections/experience/Notes.jsx ***!
+  \*********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./components/resume/sections/experience/Company.jsx ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./components/resume/sections/experience/Position.jsx ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./components/resume/sections/experience/dateUtils.jsx ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
+  \*************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./node_modules/react/cjs/react-jsx-runtime.development.js ***!
+  \*****************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/react-dom/cjs/react-dom-client.development.js ***!
+  \********************************************************************/
+
+/*!***********************************************************************!*\
+  !*** ./node_modules/react-router/dist/development/chunk-OIYGIGL5.mjs ***!
+  \***********************************************************************/
+
 /**
  * @license React
- * react-dom.production.min.js
+ * react-dom-client.development.js
  *
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10,9 +254,9 @@
 
 /**
  * @license React
- * react.production.min.js
+ * react-dom.development.js
  *
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20,16 +264,26 @@
 
 /**
  * @license React
- * scheduler.production.min.js
+ * react-jsx-runtime.development.js
  *
- * Copyright (c) Facebook, Inc. and its affiliates.
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
 /**
- * @remix-run/router v1.21.0
+ * @license React
+ * scheduler.development.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * react-router v7.9.4
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -39,24 +293,11 @@
  * @license MIT
  */
 
-/**
- * React Router DOM v6.28.0
+/** @license React v16.13.1
+ * react-is.development.js
  *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
-
-/**
- * React Router v6.28.0
- *
- * Copyright (c) Remix Software Inc.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
+ * LICENSE file in the root directory of this source tree.
  */

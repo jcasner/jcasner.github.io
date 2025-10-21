@@ -1,4 +1,3 @@
-import React from 'react';
 
 import LocalLink from './LocalLink';
 import SocialLink from './SocialLink';

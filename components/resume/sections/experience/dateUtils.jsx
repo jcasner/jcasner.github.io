@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const getDateDiff = (start, endDate) => {
   let diff = '';
@@ -32,11 +31,9 @@ export const getDateCell = (start, end, includeDuration) => {
     diff = getDateDiff(start, endDate);
   }
 
-  /* eslint-disable react/jsx-one-expression-per-line */
   return (
     <div>
       {startStr} - {endStr}{<div><small><i>{diff}</i></small></div>}
     </div>
   );
-  /* eslint-enable react/jsx-one-expression-per-line */
 };

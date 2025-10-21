@@ -11,7 +11,7 @@ var config = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        resolve: { extensions: [".js", ".jsx"] },
+        resolve: { extensions: ['.js', '.jsx'] },
         loader: 'babel-loader'
       },
     ],
@@ -32,4 +32,4 @@ module.exports = (env, argv) => {
   }
 
   return config;
-}
+};

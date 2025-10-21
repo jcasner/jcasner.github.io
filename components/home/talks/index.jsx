@@ -1,4 +1,3 @@
-import React from 'react';
 
 import Talk from './Talk';
 
@@ -25,17 +24,21 @@ const talks = [
     video: 'https://www.youtube.com/embed/NzEa2mLYDNk',
   },
   {
-    title: 'How I Built it with AWS',
-    conference: 'AWS Startups',
-    confLink: 'https://aws.amazon.com/startups/showcase/startup-details/bd8931e1-e364-4caf-976e-3b9b2ef068fd',
-    about: 'Mike and I were interviewed by AWS about how we built the company, and what we learned along the way',
-    video: 'https://player.twitch.tv/?video=2165760314&parent=localhost&parent=jared.casner.us&&autoplay=false',
+    title: 'Get NIST-y',
+    conference: 'Podcast by Blacksmith InfoSec',
+    confLink: 'https://open.spotify.com/show/4739fFvJc3qkPrg8iSxOtx?si=27d74ae7111442a1',
+    about: `Get NIST-y is a podcast that breaks compliance out of the checkbox trap and turns it into a real security
+      advantage. No fluff, no FUD—just practical strategies to make compliance work for your MSP. Each week, we dive
+      into compliance topics based on real questions from our MSP partners and subscribers.`,
+    video: 'https://open.spotify.com/embed/show/4739fFvJc3qkPrg8iSxOtx?utm_source=generator',
   },
 ];
 
-export default () => (
+const Talks = () => (
   <div>
     <h2>Talks</h2>
     {talks.map((talk, index) => <Talk talk={talk} key={talk.title} last={talks.length - index === 1} />)}
   </div>
 );
+
+export default Talks;
