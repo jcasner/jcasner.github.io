@@ -10,6 +10,14 @@ const talks = [
     video: 'https://www.youtube.com/embed/gtP5OU-8OEk',
   },
   {
+    title: 'Bootstrapping Security',
+    conference: 'BSidesSF 2026',
+    confLink: 'http://bsidessf.org/',
+    about: `How to build a security program on day 1, before funding or having a dedicated security budget.
+            Updated for 2026.`,
+    video: 'https://www.youtube.com/embed/s2l9UyCPpk0',
+  },
+  {
     title: 'Insights on Leadership & Mindset',
     conference: 'Joey Pinz Discipline Conversations',
     confLink: 'https://joeypinzconversations.com/',
